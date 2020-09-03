@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="87" viewBox="0 0 87 87">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Контур_22" data-name="Контур 22" d="M0,21.25H51v-51H0Z" transform="translate(0 29.75)" fill="#8b7a00"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_54" data-name="Сгруппировать 54" transform="translate(-307 -7440)">
+    <circle id="Эллипс_11" data-name="Эллипс 11" cx="43.5" cy="43.5" r="43.5" transform="translate(307 7440)" fill="#fff"/>
+    <g id="Сгруппировать_18" data-name="Сгруппировать 18" transform="translate(240 -32)">
+      <g id="Сгруппировать_53" data-name="Сгруппировать 53" transform="translate(85 7519.75)">
+        <g id="Сгруппировать_12" data-name="Сгруппировать 12" transform="translate(0 -29.75)" clip-path="url(#clip-path)">
+          <path id="Контур_21" data-name="Контур 21" d="M11-12.75H1v34H11Zm0,34-5-39a5.439,5.439,0,0,0,4-2,5.439,5.439,0,0,0,2-4,5.439,5.439,0,0,0-2-4,5.439,5.439,0,0,0-4-2,5.442,5.442,0,0,0-4,2,5.445,5.445,0,0,0-2,4,5.445,5.445,0,0,0,2,4,5.442,5.442,0,0,0,4,2m45,39v-19a20,20,0,0,0-3-11c-1.959-3.089-5.1-5-10-5a10.23,10.23,0,0,0-6,2c-1.658.979-3.246,1.494-4,3h0v-4H18v34H28v-17c0-2.638.246-4.643,1-6,.98-1.808,3.59-3,6-3s3.171.964,4,3a17.4,17.4,0,0,1,1,6v17Z" transform="translate(0 29.75)" fill="#8b7a00"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
