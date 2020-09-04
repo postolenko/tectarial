@@ -1461,6 +1461,9 @@ textarea:focus {
 
 .main_sldier {
     background-color: #fff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 
 .main_sldier .slide {
