@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title>Tectareal</title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 
 <body>
@@ -33,6 +33,79 @@
 						<span></span>
 						<span></span>
 					</button>
+				</div>
+			</div>
+			<div class="main_nav_box" id="resp_nav">
+				<div class="header_templ_wrapp">
+					<div class="header_templ">
+						<div class="left">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="" />
+							</a>
+						</div>
+						<div class="right">
+							<ul class="switch_lang">
+								<li><a href="#">De</a></li>
+								<li><a href="#">En</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="main_nav_templ">
+						<div class="col">
+							<ul class="naim_nav">
+								<li>
+									<a href="#">Unternehmen</a>
+									<ul>
+										<li><a href="#">Unsere Werte</a></li>
+										<li><a href="#">Das macht uns aus</a></li>
+										<li><a href="#">Unser Versprechen</a></li>
+										<li><a href="#">Unser Ziel – Ihr Erfolg</a></li>
+										<li><a href="#">Wir sind da wo Sie sind</a></li>
+										<li><a href="#">Tectareal Tochterunternhemen</a></li>
+										<li><a href="#">Unser Team</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="naim_nav">
+								<li>
+									<a href="#">Leistungen</a>
+									<ul>
+										<li><a href="#">Kaufmännisches Property Management</a></li>
+										<li><a href="#">Reporting</a></li>
+										<li><a href="#">Vermietung</a></li>
+										<li><a href="#">Mietermanagement</a></li>
+										<li><a href="#">Technisches Property Management</a></li>
+										<li><a href="#">Technisches Facility Management</a></li>
+										<li><a href="#">Due Diligence</a></li>
+										<li><a href="#">Property Controlling</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="naim_nav">
+								<li>
+									<a href="#">Karriere</a>
+								</li>
+								<li>
+									<a href="#">Aktuelles</a>
+								</li>
+								<li>
+									<a href="#">Kontakt</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="main_nav_footer">
+						<ul class="main_nav_2">
+							<li><a href="#">Impressum</a></li>
+							<li><a href="#">Datenschutz</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -62,63 +135,75 @@
 
 		<section>
 			<div class="row">
-				<div class="card_templ">
-					<div class="left">
-						<div class="content_thumb">
-							<h2>Heben Sie Ihr Property Management auf das nächste Level</h2>
-							<p>Wir von Tectareal haben Ihre Immobilien und Renditen fest im Blick – und wissen worauf es wirklich ankommt.</p>
-						</div>
-						<div class="card_thumb bg">
-							<img class="card_img" src="img/card_image.jpg" alt="" />
-							<div class="card_thumb_content">
-								<h4>Unser Versprechen</h4>
-								<h3>Ihr Partner auf Augenhöhe</h3>
-							</div>
-							<div class="card_thumb_footer">
-								<a href="#" class="olive_pill">Mehr erfahren ></a>
+				<div class="card_templ" id="cardTempl">
+					<div class="left" id="leftToUp">
+						<div class="card_thumb_wrapp">
+							<div class="content_thumb">
+								<h2>Heben Sie Ihr Property Management auf das nächste Level</h2>
+								<p>Wir von Tectareal haben Ihre Immobilien und Renditen fest im Blick – und wissen worauf es wirklich ankommt.</p>
 							</div>
 						</div>
-						<div class="card_thumb">
-							<img class="card_img" src="img/blue_bg.jpg" alt="" />
-							<div class="card_thumb_content">
-								<h4>Ihr Erfolg fest im Blick</h4>
-								<h3>Digital nehmen wir für Sie Speed auf</h3>
+						<div class="card_thumb_wrapp">
+							<div class="card_thumb bg">
+								<img class="card_img" src="img/card_image.jpg" alt="" />
+								<div class="card_thumb_content">
+									<h4>Unser Versprechen</h4>
+									<h3>Ihr Partner auf Augenhöhe</h3>
+								</div>
+								<div class="card_thumb_footer">
+									<a href="#" class="olive_pill">Mehr erfahren ></a>
+								</div>
 							</div>
-							<div class="card_thumb_footer">
-								<a href="#" class="transparent_pill">Mehr erfahren ></a>
+						</div>
+						<div class="card_thumb_wrapp">
+							<div class="card_thumb">
+								<img class="card_img" src="img/blue_bg.jpg" alt="" />
+								<div class="card_thumb_content">
+									<h4>Ihr Erfolg fest im Blick</h4>
+									<h3>Digital nehmen wir für Sie Speed auf</h3>
+								</div>
+								<div class="card_thumb_footer">
+									<a href="#" class="transparent_pill">Mehr erfahren ></a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="right">
-						<div class="card_thumb blue">
-							<div class="card_thumb_content">
-								<h4>TOP News</h4>
-								<h3>Tectareal gewinnt European Real Estate Award 2020!</h3>
-								<div class="icon_box">
-									<i class="icon_01"></i>
+					<div class="right" id="rightToUp">
+						<div class="card_thumb_wrapp">
+							<div class="card_thumb blue">
+								<div class="card_thumb_content">
+									<h4>TOP News</h4>
+									<h3>Tectareal gewinnt European Real Estate Award 2020!</h3>
+									<div class="icon_box">
+										<i class="icon_01"></i>
+									</div>
+								</div>
+								<div class="card_thumb_footer">
+									<a href="#" class="transparent_pill">Zu den New ></a>
 								</div>
 							</div>
-							<div class="card_thumb_footer">
-								<a href="#" class="transparent_pill">Zu den New ></a>
+						</div>
+						<div class="card_thumb_wrapp">
+							<div class="card_thumb dark_olive">
+								<div class="card_thumb_content">
+									<h4>Das ist Tectareal</h4>
+									<h3>Das Beste aus 2 Welten</h3>
+									<p>Nutzen Sie die Prozesssicherheit eines Konzerns  in Verbindung mit Schnelligkeit und der Flexibilität des Mittelstands</p>
+								</div>
+								<div class="card_thumb_footer">
+									<a href="#" class="transparent_pill">Mehr erfahren ></a>
+								</div>
 							</div>
 						</div>
-						<div class="card_thumb dark_olive">
-							<div class="card_thumb_content">
-								<h4>Das ist Tectareal</h4>
-								<h3>Das Beste aus 2 Welten</h3>
-								<p>Nutzen Sie die Prozesssicherheit eines Konzerns  in Verbindung mit Schnelligkeit und der Flexibilität des Mittelstands</p>
-							</div>
-							<div class="card_thumb_footer">
-								<a href="#" class="transparent_pill">Mehr erfahren ></a>
-							</div>
-						</div>
-						<div class="card_thumb olive map_bg">
-							<div class="card_thumb_content">
-								<h4>Wir sind da wo Sie sind</h4>
-								<h3>9 Standorte deutschlandweit</h3>
-							</div>
-							<div class="card_thumb_footer">
-								<a href="#" class="transparent_pill">Mehr erfahren ></a>
+						<div class="card_thumb_wrapp">
+							<div class="card_thumb olive map_bg">
+								<div class="card_thumb_content">
+									<h4>Wir sind da wo Sie sind</h4>
+									<h3>9 Standorte deutschlandweit</h3>
+								</div>
+								<div class="card_thumb_footer">
+									<a href="#" class="transparent_pill">Mehr erfahren ></a>
+								</div>
 							</div>
 						</div>
 					</div>
