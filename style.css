@@ -1516,7 +1516,6 @@ textarea:focus {
 .contacts_article {
     display: flex;
     display: -webkit-flex;
-    /*margin-bottom: 70px;*/
     margin: 50px 0 70px;
 }
 
