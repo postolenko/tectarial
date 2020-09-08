@@ -1231,18 +1231,18 @@ textarea:focus {
 .olive_pill:link,
 .olive_pill:visited {
     background: rgba(139, 122, 0, .75);
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .olive_pill:active,
 .olive_pill.active {
-    background: #fff;
-    color: #29A4D3;
+    background: #000;
+    /*color: #29A4D3;*/
 }
 
 .olive_pill:hover {
-    background: #fff;
-    color: #29A4D3;
+    background: #000;
+    /*color: #29A4D3;*/
 }
 
 /*.transparent_pill_2 {
