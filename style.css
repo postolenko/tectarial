@@ -841,6 +841,10 @@ textarea:focus {
     position: relative;
 }
 
+.header_site_inner_2 {
+    background-image: url(img/header_inner_bg_2.jpg);
+}
+
 /*-- /Inner Header --*/
 
 /*-------------------------------------------*/
@@ -3519,14 +3523,15 @@ textarea {
 .dropdown_box_title:after {
     display: block;
     content: "";
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-image: url(img/yellow_down_arrow.svg);
     background-size: contain;
-    margin-top: -15px;
+    background-repeat: no-repeat;
+    margin-top: -20px;
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 12px;
     -webkit-transition-property: transform;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
@@ -3847,9 +3852,10 @@ p.testimonial_author {
     vertical-align: top;
     min-width: 160px;
     padding: 5px 10px 5px 10px;
-    border: 1px solid #EAE7E4;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
+    /*border: 1px solid #EAE7E4;*/
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
@@ -3869,7 +3875,52 @@ p.testimonial_author {
 
 /*-- /Section 8 - Leistungen Page --*/
 
+/*-- Section 1 - Stelle --*/
 
+.article {
+
+}
+
+.article ul {
+
+}
+
+.article li {
+    padding-left: 30px;
+    position: relative;
+}
+
+.article ul li:before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+/*-- /Section 1 - Stelle --*/
+
+/*-- Section 2 - Stelle Page --*/
+
+.contacts_article_2 input,
+.contacts_article_2 textarea {
+    background-color: transparent;
+}
+
+/*-- /Section 2 - Stelle Page --*/
+
+/*-- Section 3 - Stelle Page --*/
+
+.sect_3_sp {
+    padding: 90px 0 60px 0;
+}
+
+/*-- /Section 3 - Stelle Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
