@@ -2,3 +2,5 @@
 # http://postolenko.github.io/tectarial/unhernehmen.html
 # http://postolenko.github.io/tectarial/impressum.html
 # http://postolenko.github.io/tectarial/datenschutzerklärung.html
+# http://postolenko.github.io/tectarial/leistungen.html
+# http://postolenko.github.io/tectarial/karriere.html

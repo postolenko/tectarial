@@ -206,4 +206,63 @@ $(document).ready(function() {
         }
     });
 
+    // ----------
+
+    $(".dropdown_box_title").on("click", function(e) {
+      e.preventDefault();
+      parentBlock = $(this).closest(".dropdown_box_wrapp");
+      var dropdownBlock = parentBlock.find(".dropdown_box");
+      if(dropdownBlock.is(":hidden")) {
+        dropdownBlock.slideDown(300);
+        $(this).addClass("active");
+      } else {
+        dropdownBlock.slideUp(300);
+        $(this).removeClass("active");
+      }
+    });
+
+    $(this).keydown(function(eventObject){
+      if (eventObject.which == 27 ) {
+        $(".dropdown_box").slideUp(300);
+        $(".dropdown_box_title").removeClass("active");
+      }
+    });
+
+    $(document).mouseup(function (e){
+        hide_element = $(".dropdown_box")
+        if (!hide_element.is(e.target)
+            && hide_element.has(e.target).length === 0) {
+          $(hide_element).slideUp(300);
+          parentBlock = $(hide_element).closest(".dropdown_box_wrapp");
+          parentBlock.find(".dropdown_box_title").removeClass("active");
+        }
+    });
+
+    var value, form, dropdowns;
+
+    $(".dropdown_box p").on("click", function(e) {
+      e.preventDefault();
+      value = $(this).text();
+      parentBlock = $(this).closest(".dropdown_box_wrapp");
+      parentBlock.find(".dropdown_box_title p").text(value);
+      parentBlock.find("input[type='hidden']").val(value);
+      parentBlock.find(".dropdown_box_title").removeClass("active");
+      $(this).closest(".dropdown_box").slideUp(300);
+    });
+
+    // -----------
+
+    if( $(".testimonial_slider").length > 0 ) {
+        $(".testimonial_slider").not(".slick-initialized").slick({
+            dots: true,
+            arrows: true,
+            // autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 1200,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true
+        });
+    }
+
 });
