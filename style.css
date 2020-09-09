@@ -2337,6 +2337,11 @@ textarea {
     transition-timing-function: ease;
 }
 
+.city_link.active p {
+    background-color: #8E7813;
+    color: #fff;
+}
+
 .city_link:hover p {
     background-color: #8E7813;
     color: #fff;
@@ -3965,7 +3970,7 @@ p.testimonial_author {
 }
 
 .contacts_slider .slick-next {
-    right: -16px;
+    right: 3px;
 }
 
 .contacts_slider .slick-prev:before {

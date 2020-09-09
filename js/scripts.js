@@ -267,6 +267,39 @@ $(document).ready(function() {
 
 
     if( $(".contacts_slider").length > 0 ) {
+
+        $(".city_link").on("click", function(e) {
+            e.preventDefault();
+            parentBlock = $(this).closest(".map_wrapp");
+            index = $(this).attr("data-cityindex");
+            sliderName = parentBlock.attr("data-map");
+            $("[data-slider = '"+sliderName+"'] .slick-dots li[data-cityindex = '"+index+"'] button").trigger("click");
+        });
+
+        $(".contacts_slider").init(function() {
+            var indexArr = [];
+            var countInex = 0;
+            var indexBtn;
+            index = $(this).find(".slick-current .slide").attr("data-cityindex");
+            sliderName = $(this).attr("data-slider");
+            $("[data-cityindex = '"+index+"']").addClass("active");
+            $(this).find(".slide").each(function() {
+                indexArr.push($(this).attr("data-cityindex"));
+            });
+            $(this).find(".slick-dots li").each(function() {
+                indexBtn = $(this).find("button").index();
+                $(this).attr("data-cityindex", indexArr[countInex]);
+                countInex++;
+            });
+        });
+
+        $('.contacts_slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+            index = $(this).find(".slick-current .slide").attr("data-cityindex");
+            sliderName = $(this).attr("data-slider");
+            $("[data-map = '"+sliderName+"'] .city_link").removeClass("active");
+            $("[data-cityindex = '"+index+"']").addClass("active");
+        });
+
         $(".contacts_slider").not(".slick-initialized").slick({
             dots: true,
             arrows: true,
@@ -277,6 +310,9 @@ $(document).ready(function() {
             slidesToScroll: 1,
             fade: true
         });
+
+
+
     }
 
     if( $(".years_slider").length > 0 ) {
