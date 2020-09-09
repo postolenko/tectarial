@@ -845,6 +845,10 @@ textarea:focus {
     background-image: url(img/header_inner_bg_2.jpg);
 }
 
+.header_site_inner_3 {
+    background-image: url(img/header_inner_bg_3.jpg);
+}
+
 /*-- /Inner Header --*/
 
 /*-------------------------------------------*/
@@ -3161,6 +3165,7 @@ textarea {
     left: -68px;
     transform: rotate(12deg);
     -webkit-transform: rotate(12deg);
+    opacity: .45;
 }
 
 .article_2 .inner {
@@ -3921,6 +3926,161 @@ p.testimonial_author {
 }
 
 /*-- /Section 3 - Stelle Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.map_section_2 {
+    margin-bottom: 0;
+}
+
+.map_section_2 .map_article {
+
+}
+
+.contacts_slider {
+
+}
+
+.contacts_slider .slide {
+    padding: 0 20px;
+}
+
+.contacts_slider {
+    /*max-width: 500px;*/
+    /*max-width: 462px;*/
+    max-width: 470px;
+    margin-top: 137px;
+}
+
+.contacts_slider .slick-arrow {
+    margin-top: -50px;
+}
+
+.contacts_slider .slick-prev {
+    left: -19px;
+}
+
+.contacts_slider .slick-next {
+    right: -16px;
+}
+
+.contacts_slider .slick-prev:before {
+    background-image: url(img/yellow_left_arrow.svg);
+    background-size: contain;
+    transform: none;
+}
+
+.contacts_slider .slick-next:before {
+    background-image: url(img/yellow_right_arrow.svg);
+    background-size: contain;
+    transform: none;
+}
+
+.contacts_box {
+    /*max-width: 320px;*/
+    max-width: 300px;
+    margin: 0 auto;
+    /*outline: 1px solid red;*/
+}
+
+.contact_header {
+    min-height: 145px;
+}
+
+.contact_descript {
+
+}
+
+.contact_header p {
+    line-height: 37px;
+    font-weight: 600;
+}
+
+.contact_descript p {
+    line-height: 37px;
+}
+
+.contacts_slider .slick-dots {
+    opacity: 0;
+    z-index: -1;
+}
+
+.contacts_slider .slick-dots li button {
+    background-color: #000;
+}
+
+.thumbnails_4 {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 70px -10px;
+}
+
+.thumb_4 {
+    width: 33.33%;
+    padding: 40px 10px;
+}
+
+.thumb_4 .icon_box {
+    height: 178px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.thumb_4 .icon_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+/*-- /Section 1 - Contact --*/
+
+/*-- Section 2 - Contact --*/
+
+.table {
+    margin: 30px 0;
+}
+
+.table .table_row {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.table .table_row .cell {
+    padding: 7px 10px 7px 10px;
+}
+
+.table .table_row .cell:nth-child(1) {
+    width: 22%;
+    padding-left: 0;
+}
+
+.table .table_row .cell:nth-child(2) {
+    width: 39%;
+}
+
+.table .table_row .cell:nth-child(3) {
+    width: 39%;
+    padding-right: 0;
+}
+
+.table p {
+
+}
+
+.table .table_row .cell:nth-child(1) p {
+    font-weight: bold;
+}
+
+/*-- /Section 2 - Contact --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

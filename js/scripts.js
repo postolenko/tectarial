@@ -265,4 +265,18 @@ $(document).ready(function() {
         });
     }
 
+
+    if( $(".contacts_slider").length > 0 ) {
+        $(".contacts_slider").not(".slick-initialized").slick({
+            dots: true,
+            arrows: true,
+            // autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 1200,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true
+        });
+    }
+
 });
