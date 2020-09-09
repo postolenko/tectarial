@@ -22,6 +22,7 @@ var cardTemplTopCoord;
 
 $(window).load(function() {
 
+    $(".promo_sect .bg_image").addClass("active");
     getCardsAnimation();
 
 });
@@ -103,6 +104,13 @@ $(document).ready(function() {
             } else {
                 adaptiveHeight = false;
             }
+
+            if($(this).hasClass("infinite")) {
+                infinite = true;
+            } else {
+                infinite = false;
+            }
+
             $(this).not(".slick-initialized").slick({
                 dots: true,
                 arrows: true,
@@ -112,7 +120,7 @@ $(document).ready(function() {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 fade: true,
-                infinite: false,
+                infinite: infinite,
                 appendArrows: appendArrowsBox,
                 appendDots: appendDotsBox,
                 adaptiveHeight: adaptiveHeight
@@ -274,6 +282,8 @@ $(document).ready(function() {
             index = $(this).attr("data-cityindex");
             sliderName = parentBlock.attr("data-map");
             $("[data-slider = '"+sliderName+"'] .slick-dots li[data-cityindex = '"+index+"'] button").trigger("click");
+            parentBlock.find(".city_link").removeClass("active");
+            $(this).addClass("active");
         });
 
         $(".contacts_slider").init(function() {
@@ -293,25 +303,23 @@ $(document).ready(function() {
             });
         });
 
-        $('.contacts_slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
-            index = $(this).find(".slick-current .slide").attr("data-cityindex");
-            sliderName = $(this).attr("data-slider");
-            $("[data-map = '"+sliderName+"'] .city_link").removeClass("active");
-            $("[data-cityindex = '"+index+"']").addClass("active");
-        });
+        // $('.contacts_slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+        //     index = $(this).find(".slick-current .slide").attr("data-cityindex");
+        //     sliderName = $(this).attr("data-slider");
+        //     $("[data-map = '"+sliderName+"'] .city_link").removeClass("active");
+        //     $("[data-cityindex = '"+index+"']").addClass("active");
+        // });
 
         $(".contacts_slider").not(".slick-initialized").slick({
             dots: true,
             arrows: true,
             // autoplay: true,
             autoplaySpeed: 4000,
-            speed: 1200,
+            speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
             fade: true
         });
-
-
 
     }
 
