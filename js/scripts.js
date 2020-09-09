@@ -279,4 +279,35 @@ $(document).ready(function() {
         });
     }
 
+    if( $(".years_slider").length > 0 ) {
+
+        $(".years_slider").not(".slick-initialized").slick({
+            dots: true,
+            arrows: false,
+            // autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 1200,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            adaptiveHeight: true,
+            swipe: false,
+            infinite: false,
+            appendDots: ".years_slider_controls"
+        });
+
+        $(".year_btn").on("click", function(e) {
+            e.preventDefault();
+            index = $(this).closest("li").index();
+            parentBlock = $(this).closest(".years_tab_wrapp");
+            yearsSliderControls = parentBlock.find(".years_slider_controls");
+            yearsSliderControls.find("li:eq("+index+") button").trigger("click");
+            $(".years_tab li a").removeClass("active");
+            $(".years_tab").each(function() {
+                $(this).find("li:eq("+index+") a").addClass("active");
+            });
+        });
+
+    }
+
 });
