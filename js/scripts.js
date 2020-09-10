@@ -1,16 +1,16 @@
-function getCardsAnimation() {
-    if($("#cardTempl").length > 0) {
-        var cardTemplOffset = $(document).scrollTop() - $("#cardTempl").offset().top;
-        if(cardTemplOffset <= 0) {
-            $("#rightToUp").css({
-                "top" : cardTemplOffset / 3.5 + "px"
-            });
-            $("#leftToUp").css({
-                "top" : -1*(cardTemplOffset / 3.5) + "px"
-            });
-        }
-    }
-}
+// function getCardsAnimation() {
+//     if($("#cardTempl").length > 0) {
+//         var cardTemplOffset = $(document).scrollTop() - $("#cardTempl").offset().top;
+//         if(cardTemplOffset <= 0) {
+//             $("#rightToUp").css({
+//                 "top" : cardTemplOffset / 3.5 + "px"
+//             });
+//             $("#leftToUp").css({
+//                 "top" : -1*(cardTemplOffset / 3.5) + "px"
+//             });
+//         }
+//     }
+// }
 
 var w = window,
 d = document,
@@ -23,7 +23,8 @@ var cardTemplTopCoord;
 $(window).load(function() {
 
     $(".promo_sect .bg_image").addClass("active");
-    getCardsAnimation();
+    $("#cardTempl").addClass("active");
+    // getCardsAnimation();
 
 });
 
@@ -35,7 +36,7 @@ $(window).resize(function() {
 
 $(document).scroll(function() {
 
-    getCardsAnimation();
+    // getCardsAnimation();
 
 });
 
@@ -353,5 +354,22 @@ $(document).ready(function() {
         });
 
     }
+
+    // ------------
+
+ $(".scroll_down").click(function(e) {
+    var topCoord;
+    e.preventDefault();
+    // if(bodyWidth > 900) {
+        topCoord = $(this).closest("section").next("section").offset().top;
+        topCoord = $("#promo").offset().top + $("#promo").outerHeight()
+    // } else {
+    //     topCoord = $(this).closest("section").next("section").offset().top - $(".header_site").height();
+    // }
+    $("body, html").animate({
+        scrollTop: topCoord
+    }, 1000);
+});
+
 
 });
