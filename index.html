@@ -19,7 +19,7 @@
 	<!-- Header -->
 		
 	<header>
-		<div class="header_site">
+		<div class="header_site" id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -50,6 +50,10 @@
 									<li><a href="#">De</a></li>
 									<li><a href="#">En</a></li>
 								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
 							</div>
 						</div>
 					</div>
@@ -60,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -76,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -112,6 +118,28 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Scroll Menu -->
+		<div class="scroll_menu" id="scrollMenu">
+			<div class="header_row">
+				<div class="header_templ">
+					<div class="left">
+						<a href="#" class="logo_resp">
+							<img src="img/logo_resp.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<button class="respmenubtn respmenubtn_2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Scroll Menu -->
+
 	</header>
 
 	<!-- /Header -->
@@ -144,74 +172,71 @@
 		<section class="sect_2_mp">
 			<div class="row">
 				<div class="card_templ" id="cardTempl">
-					<div class="left">
-						<div class="card_thumb_wrapp">
-							<div class="content_thumb">
-								<h2>Heben Sie Ihr Property Management auf das nächste Level</h2>
-								<p>Wir von Tectareal haben Ihre Immobilien und Renditen fest im Blick – und wissen worauf es wirklich ankommt.</p>
-							</div>
+					<div class="card_thumb_wrapp">
+						<div class="content_thumb">
+							<h4>Unsere Werte</h4>
+							<h2>Heben Sie Ihr Property Management auf das nächste Level</h2>
+							<p>Wir von Tectareal haben Ihre Immobilien und Renditen fest im Blick – und wissen worauf es wirklich ankommt.</p>
 						</div>
-						<div class="card_thumb_wrapp">
-							<div class="card_thumb card_thumb_bg">
-								<img class="card_img" src="img/card_image.jpg" alt="" />
-								<div class="card_thumb_content">
-									<h4>Unser Versprechen</h4>
-									<h3>Ihr Partner auf Augenhöhe</h3>
-								</div>
-								<div class="card_thumb_footer">
-									<a href="#" class="olive_pill">Mehr erfahren ></a>
-								</div>
+					</div>
+					<div class="card_thumb_wrapp">
+						<div class="card_thumb blue">
+							<div class="card_thumb_content">
+								<h4>TOP News</h4>
+								<h3>Tectareal gewinnt European Real Estate Award 2020!</h3>
 							</div>
-						</div>
-						<div class="card_thumb_wrapp">
-							<div class="card_thumb">
-								<img class="card_img" src="img/blue_bg.jpg" alt="" />
-								<div class="card_thumb_content">
-									<h4>Ihr Erfolg fest im Blick</h4>
-									<h3>Digital nehmen wir für Sie Speed auf</h3>
+							<div class="card_thumb_footer">
+								<div class="icon_box">
+									<i class="icon_01"></i>
 								</div>
-								<div class="card_thumb_footer">
-									<a href="#" class="transparent_pill">Mehr erfahren ></a>
-								</div>
+								<a href="#" class="transparent_pill">Zu den New ></a>
 							</div>
 						</div>
 					</div>
-					<div class="right">
-						<div class="card_thumb_wrapp">
-							<div class="card_thumb blue">
-								<div class="card_thumb_content">
-									<h4>TOP News</h4>
-									<h3>Tectareal gewinnt European Real Estate Award 2020!</h3>
-									<div class="icon_box">
-										<i class="icon_01"></i>
-									</div>
-								</div>
-								<div class="card_thumb_footer">
-									<a href="#" class="transparent_pill">Zu den New ></a>
-								</div>
+					<div class="card_thumb_wrapp">
+						<div class="card_thumb card_thumb_bg" style="background-image: url(img/card_image.jpg);">
+							<!-- <img class="card_img" src="img/card_image.jpg" alt="" /> -->
+							<div class="card_thumb_content">
+								<h4>Unser Versprechen</h4>
+								<h3>Ihr Partner auf Augenhöhe</h3>
+							</div>
+							<div class="card_thumb_footer">
+								<a href="#" class="olive_pill">Mehr erfahren ></a>
 							</div>
 						</div>
-						<div class="card_thumb_wrapp">
-							<div class="card_thumb dark_olive">
-								<div class="card_thumb_content">
-									<h4>Das ist Tectareal</h4>
-									<h3>Das Beste aus 2 Welten</h3>
-									<p>Nutzen Sie die Prozesssicherheit eines Konzerns  in Verbindung mit Schnelligkeit und der Flexibilität des Mittelstands</p>
-								</div>
-								<div class="card_thumb_footer">
-									<a href="#" class="transparent_pill">Mehr erfahren ></a>
-								</div>
+					</div>
+					<div class="card_thumb_wrapp">
+						<div class="card_thumb dark_olive">
+							<div class="card_thumb_content">
+								<h4>Das ist Tectareal</h4>
+								<h3>Das Beste aus 2 Welten</h3>
+								<p>Nutzen Sie die Prozesssicherheit eines Konzerns  in Verbindung mit Schnelligkeit und der Flexibilität des Mittelstands</p>
+							</div>
+							<div class="card_thumb_footer">
+								<a href="#" class="transparent_pill">Mehr erfahren ></a>
 							</div>
 						</div>
-						<div class="card_thumb_wrapp">
-							<div class="card_thumb olive map_bg">
-								<div class="card_thumb_content">
-									<h4>Wir sind da wo Sie sind</h4>
-									<h3>9 Standorte deutschlandweit</h3>
-								</div>
-								<div class="card_thumb_footer">
-									<a href="#" class="transparent_pill">Mehr erfahren ></a>
-								</div>
+					</div>
+					<div class="card_thumb_wrapp">
+						<div class="card_thumb card_thumb_bg_2"  style="background-image: url(img/blue_bg.jpg);">
+							<!-- <img class="card_img" src="img/blue_bg.jpg" alt="" /> -->
+							<div class="card_thumb_content">
+								<h4>Ihr Erfolg fest im Blick</h4>
+								<h3>Digital nehmen wir für Sie Speed auf</h3>
+							</div>
+							<div class="card_thumb_footer">
+								<a href="#" class="transparent_pill">Mehr erfahren ></a>
+							</div>
+						</div>
+					</div>					
+					<div class="card_thumb_wrapp">
+						<div class="card_thumb olive map_bg">
+							<div class="card_thumb_content">
+								<h4>Wir sind da wo Sie sind</h4>
+								<h3>9 Standorte deutschlandweit</h3>
+							</div>
+							<div class="card_thumb_footer">
+								<a href="#" class="transparent_pill">Mehr erfahren ></a>
 							</div>
 						</div>
 					</div>
@@ -228,8 +253,8 @@
 				<div class="person_article">
 					<div class="left">
 						<div class="photo_box_wrapp">
-							<div class="photo_box">
-								<img src="img/wooman.jpg" alt="" />
+							<div class="photo_box" style="background-image: url(img/wooman.jpg)">
+								<!-- <img src="img/wooman.jpg" alt="" /> -->
 							</div>
 						</div>
 					</div>
@@ -260,15 +285,19 @@
 							<div class="photo_descript">
 								<img src="img/text.svg" alt="" />
 							</div>
-							<div class="photo_box_2">
-								<img src="img/image_01.jpg" alt="" />
+							<div class="photo_box_2" style="background-image: url(img/image_01.jpg)">
+								<!-- <img src="img/image_01.jpg" alt="" /> -->
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="main_sldier">
 					<div>
-						<div class="slide" style="background-image: url(img/slide.jpg)">
+						<div class="slide">
+							<div class="slide_descript_resp">
+								<p>Postplatz, Berlin</p>
+							</div>
+							<div class="img_box" style="background-image: url(img/slide.jpg)"></div>
 							<div class="slide_decript">
 								<p>Postplatz</p>
 								<p>Berlin</p>
@@ -276,9 +305,13 @@
 						</div>
 					</div>
 					<div>
-						<div class="slide" style="background-image: url(img/slide.jpg)">
+						<div class="slide">
+							<div class="slide_descript_resp">
+								<p>Messeturm Frankfurt a. M., Berlin</p>
+							</div>
+							<div class="img_box" style="background-image: url(img/slide_2.jpg)"></div>
 							<div class="slide_decript">
-								<p>Postplatz</p>
+								<p>Messeturm Frankfurt a. M.</p>
 								<p>Berlin</p>
 							</div>
 						</div>
@@ -300,8 +333,8 @@
 							<h3>Ihr persönlicher Ansprechpartner</h3>
 							<div class="manager_article">
 								<div>
-									<div class="photo_box_3">
-										<img src="img/foerstner.jpg" alt="" />
+									<div class="photo_box_3" style="background-image: url(img/foerstner.jpg);">
+										<!-- <img src="img/foerstner.jpg" alt="" /> -->
 									</div>
 								</div>
 								<div>
@@ -342,7 +375,6 @@
 					</div>
 				</div>
 			</div>
-
 		</section>
 
 		<!-- /Section 5 - Main Page -->
@@ -383,6 +415,24 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer_nav_resp_wrapp">
+						<ul class="footer_nav_resp">
+							<li><a href="#" >Home</a></li>
+							<li><a href="#" >Kontakt</a></li>
+							<li><a href="#" >Unternehmen</a></li>
+							<li><a href="#" >Impressum</a></li>
+							<li><a href="#" >Leistungen</a></li>
+							<li><a href="#" >Datenschutz</a></li>
+							<li><a href="#" >Karriere</a></li>
+							<li>
+								<ul class="soc_list_resp">
+									<li><a href="#"><img src="img/fb.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/ln.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/soc.svg" alt="" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="footer_bootom_row">
@@ -408,12 +458,8 @@
 
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="slick/slick.js"></script>
-	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="vendors/js/jquery.fancybox.js"></script>
 	<script src="js/scripts.js"></script>
 
 </body>

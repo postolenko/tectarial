@@ -12,6 +12,19 @@
 //     }
 // }
 
+function getFixedNavMenu() {
+    if($("#promo").length > 0) {
+        offsetCoord = $("#promo").offset().top + $("#promo").outerHeight();
+    } else {
+        offsetCoord = $("#headerSite").offset().top + $("#headerSite").height();
+    }
+    if($(document).scrollTop() > offsetCoord ) {
+        $("#scrollMenu").addClass("fixed");
+    } else {
+        $("#scrollMenu").removeClass("fixed");
+    }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -19,6 +32,7 @@ g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 var cardTemplTopCoord;
+var offsetCoord;
 
 $(window).load(function() {
 
@@ -30,17 +44,20 @@ $(window).load(function() {
 
 $(window).resize(function() {
 
-
+getFixedNavMenu();
 
 });
 
 $(document).scroll(function() {
 
     // getCardsAnimation();
+    getFixedNavMenu();
 
 });
 
-$(document).ready(function() {    
+$(document).ready(function() {
+
+    getFixedNavMenu();
 
     if( $(".main_sldier").length > 0 ) {
         $(".main_sldier").not(".slick-initialized").slick({
@@ -150,7 +167,7 @@ $(document).ready(function() {
         e.preventDefault();
         if( $("#resp_nav").is(":hidden") ) {
             $("#resp_nav").fadeIn(300);
-            $(this).addClass("active");
+            // $(this).addClass("active");
             div = document.createElement('div');
             div.style.overflowY = 'scroll';
             div.style.width = '50px';
@@ -172,7 +189,7 @@ $(document).ready(function() {
             $(".bg").fadeIn(300);
         } else {
             $("#resp_nav").fadeOut(300);
-            $(this).removeClass("active");
+            // $(this).removeClass("active");
             curTop = $("body").css("top");
             curTop = Math.abs(parseInt(curTop, 10));
             $("body").attr("style", "");
@@ -182,6 +199,19 @@ $(document).ready(function() {
             $("body").removeClass("fixed");
             $(".bg").fadeOut(300);
         }
+    });
+
+    $(".respmenubtn_3").click(function(e) {
+        e.preventDefault();
+        $("#resp_nav").fadeOut(300);
+        curTop = $("body").css("top");
+        curTop = Math.abs(parseInt(curTop, 10));
+        $("body").attr("style", "");
+        if (curTop !== 0) {
+            $("html").scrollTop(curTop);
+        }
+        $("body").removeClass("fixed");
+        $(".bg").fadeOut(300);
     });
 
     $(".bg").click(function(e) {
@@ -357,19 +387,34 @@ $(document).ready(function() {
 
     // ------------
 
- $(".scroll_down").click(function(e) {
-    var topCoord;
-    e.preventDefault();
-    // if(bodyWidth > 900) {
-        topCoord = $(this).closest("section").next("section").offset().top;
-        topCoord = $("#promo").offset().top + $("#promo").outerHeight()
-    // } else {
-    //     topCoord = $(this).closest("section").next("section").offset().top - $(".header_site").height();
-    // }
-    $("body, html").animate({
-        scrollTop: topCoord
-    }, 1000);
-});
+     $(".scroll_down").click(function(e) {
+        var topCoord;
+        e.preventDefault();
+        // if(bodyWidth > 900) {
+            // topCoord = $(this).closest("section").next("section").offset().top;
+            topCoord = $("#cardTempl").offset().top
+        // } else {
+        //     topCoord = $(this).closest("section").next("section").offset().top - $(".header_site").height();
+        // }
+        $("body, html").animate({
+            scrollTop: topCoord
+        }, 1000);
+    });
+
+    // ------------
+
+    $(".naim_nav .dropdown_btn").on("click", function(e) {
+        e.preventDefault();
+        parentBlock = $(this).closest("li");
+        dropdownBlock = parentBlock.find(".sub-menu");
+        if(dropdownBlock.is(":hidden")) {
+            dropdownBlock.slideDown(300);
+            $(this).addClass("active");
+        } else {
+            dropdownBlock.slideUp(300);
+            $(this).removeClass("active");
+        }
+    });
 
 
 });
