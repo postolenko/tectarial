@@ -19,7 +19,7 @@
 	<!-- Header -->
 		
 	<header>
-		<div class="header_site header_site_inner">
+		<div class="header_site header_site_inner header_site_inner_2" id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -110,6 +118,28 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Scroll Menu -->
+		<div class="scroll_menu" id="scrollMenu">
+			<div class="header_row">
+				<div class="header_templ">
+					<div class="left">
+						<a href="#" class="logo_resp">
+							<img src="img/logo_resp.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<button class="respmenubtn respmenubtn_2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Scroll Menu -->
+
 	</header>
 
 	<div class="bg"></div>
@@ -133,15 +163,15 @@
  
 					<br /><br />
 					<h3>Allgemeine Hinweise</h3>
-					<br /><br />
+					<br />
 					<p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
 					<br /><br />
 
 					<h3>Datenerfassung auf unserer Website</h3>
-					<br /><br />
+					<br />
 					<p>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</p>
 					<p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.</p>
-					<br /><br />
+					<br />
 					<h3>Wie erfassen wir Ihre Daten?</h3>
 					<p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben.</p>
 					<p>Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie unsere Website betreten.</p>
@@ -154,7 +184,7 @@
 					<br /><br />
 					 
 					<h3>Analyse-Tools und Tools von Drittanbietern</h3>
-					<br /><br />
+					<br />
 					<p>Beim Besuch unserer Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit Cookies und mit sogenannten Analyseprogrammen. Die Analyse Ihres Surf-Verhaltens erfolgt in der Regel anonym; das Surf-Verhalten kann nicht zu Ihnen zurückverfolgt werden. Sie können dieser Analyse widersprechen oder sie durch die Nichtbenutzung bestimmter Tools verhindern. Detaillierte Informationen dazu finden Sie in der folgenden Datenschutzerklärung.</p>
 					<br /><br />
 					<p>Sie können dieser Analyse widersprechen. Über die Widerspruchsmöglichkeiten werden wir Sie in dieser Datenschutzerklärung informieren.</p>
@@ -165,16 +195,16 @@
 					 <br /><br />
 
 					<h3>Datenschutz</h3>
-					<br /><br />
+					<br />
 					<p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
-					<br /><br />
+					<br />
 					<p>Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.</p>
 					<br /><br />
 					<p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
 					<br /><br />
 
 					<h3>Hinweis zur verantwortlichen Stelle</h3>
-					<br /><br />
+					<br />
 					<p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
 					<p>Tectareal Property Management GmbH</p>
 					<p>Norbertstraße 3-5</p>
@@ -185,23 +215,23 @@
 					<br /><br />
 					 
 					<h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
-					<br /><br />
+					<br />
 					<p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
 					<br /><br />
 
 					<h3>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
-					<br /><br />
+					<br />
 					<p>Im Falle datenschutzrechtlicher Verstöße steht dem Betroffenen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde in datenschutzrechtlichen Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem unser Unternehmen seinen Sitz hat. Eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten können folgendem Link entnommen werden: https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.</p>
 					<br /><br />
 
 					<h3>Recht auf Datenübertragbarkeit</h3>
-					<br /><br />
+					<br />
 					<p>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
 					<br /><br />
 					 
 
 					<h3>SSL- BZW. TLS-VERSCHLÜSSELUNG</h3>
-					<br /><br />
+					<br />
 
 					<p>Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von “http://” auf “https://” wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</p>
 					<p>Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</p>
@@ -209,14 +239,14 @@
 					 
 
 					<h3>AUSKUNFT, SPERRUNG, LÖSCHUNG</h3>
-					<br /><br />
+					<br />
 
 					<p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.</p>
 					<br /><br />
 					 
 
 					<h3>WIDERSPRUCH GEGEN WERBE-MAILS</h3>
-					<br /><br />
+					<br />
 
 					<p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.</p>
 				</div>

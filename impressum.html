@@ -17,9 +17,9 @@
 	<div class="wrapper">
 
 	<!-- Header -->
-		
+
 	<header>
-		<div class="header_site header_site_inner">
+		<div class="header_site header_site_inner" id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -110,6 +118,28 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Scroll Menu -->
+		<div class="scroll_menu" id="scrollMenu">
+			<div class="header_row">
+				<div class="header_templ">
+					<div class="left">
+						<a href="#" class="logo_resp">
+							<img src="img/logo_resp.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<button class="respmenubtn respmenubtn_2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Scroll Menu -->
+
 	</header>
 
 	<div class="bg"></div>
@@ -129,57 +159,57 @@
 					<h4>Tectareal</h4>
 					<h1>Impressum</h1>
 
-					<br /><br /><br />
+					<br /><br />
 
 					<h3>Angaben gemäß § 5 TMG:</h3>
 					<p>Tectareal Property Management GmbH</p>
 					<p>Norbertstraße 3-5</p>
 					<p>45131 Essen</p>
 
-					<br /><br /><br />
+					<br /><br />
 					 
 					<h3>Vertreten durch:</h3>
 					<p>Tectareal Property Management GmbH,<br />
 					vertreten durch die Geschäftsführung Gertrud Wesemeyer und Roland Lass</p>
 
-					<br /><br /><br />
+					<br /><br />
 					 
 					<h3>Kontakt:</h3>
 					<p>Telefon: +49 201 95888-800</p>
 					<p>Telefax: +49 201 95888-802</p>
 					<p>E-Mail: info@tectareal.de</p>
 
-					<br /><br /><br />
+					<br /><br />
 
 					<h3>Registereintrag:</h3>
 					<p>Eintragung im Handelsregister.</p>
 					<p>Registergericht: Essen</p>
 					<p>Registernummer: HRB 17521</p>
 
-					<br /><br /><br />
+					<br /><br />
 					 
 					<h3>Umsatzsteuer:</h3>
 					<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:</p>
 					<p>DE255247729</p>
 
-					<br /><br /><br />
+					<br /><br />
 
 					<h3>Streitschlichtung:</h3>
 					<p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <p>https://ec.europa.eu/consumers/odr.</p>
 					<p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
 
-					<br /><br /><br />
+					<br /><br />
 
 					<p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer<br />Verbraucherschlichtungsstelle teilzunehmen.</p>
 
-					 <br /><br /><br />
+					 <br /><br />
 
 					<h3>Konzeption, Design und technische Realisierung der Webseite:</h3>
 					<p>abc cross media GmbH | Balanstraße 73 / Haus 09 | D-81541 München</p>
 					<p>Phone: +49 89 383 292-0 | Web: www.abccrossmedia.com</p>
 					<p>E-Mail: hallo@abccrossmedia.com</p> 
 
-					<br /><br /><br />
+					<br /><br />
 
 					<h3>Quellennachweis istockphoto.com:</h3>
 					<p>#16734072 © Nikada (Karriere), 24435470 © 00one (PM Audit), 11925556 © photovideostock (Property Controlling International), 46650452 © leungchopan (Objekt Strategie), 3351333 © daveedwards (Property International), 13520070 © Nikada (Asset Management), 19312142 © VII-photo (Unsere Stärken), 6271903 © studiovision (Unsere Stärken), 33139132 © AndresGarciaM (Real Quality for real estate), 10575104 © acilo (Unsere Stärken), 7270582 © Brasil2 (Investieren & Verkaufen), 17559375 © bbuong (Kulturschock Ausland), 23691720 © chinaface (Objektmanagement), 10026163 © zoom-zoom (Technisches Know-how), 12677650 © mbbirdy (Juristisches Know-how), 7400988 © Brasil2 (Leistungen), 2278863 © carrollphoto (Vor-Ort Betreuung), 9053672 © fotogaby (Unsere Vorgehensweise), 8175880 © AnkNet (Rundum-Sorglos-Paket), 14394947 © sebastian-julian (Real Quality for real estate), 22543329 © PhotoTalk (Real Quality for real estate), 15163863 © ManuelVelasco (Objekt Strategie), 18254160 © TommL (Kulturschock Ausland), 15491045 © dan_prat (Vermietungsportal), 37865306 © Rawpixel (Mietermanagement), 18475000 © teekid (Bau- & Projektsteuerung), 19184656 © rudisill (Nachunternehmersteuerung), 15547597 © CraigRJD (Prozessmanagement), 8859659 © binabina (Residential Management), 11960541 © photovideostock (Controlling & Reporting), 14719642 © sebastian-julian (Vorgehensweise), 20799071 © matthewleesdixon (Immoblienmanagement für ausländische Investoren), 7727025 © IvanBastien (Full-Service Dienstleister)</p>

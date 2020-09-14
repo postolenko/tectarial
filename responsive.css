@@ -762,6 +762,20 @@ h1 {
 
 /*-- /Section 3 - Leistungen Page --*/
 
+/*-- Section 1 - Impressum --*/
+
+.article h1 {
+    font-size: 48px;
+    line-height: 63px;
+}
+
+.article h2 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+/*-- /Section 1 - Impressum --*/
+
 }
 
 
@@ -1570,6 +1584,30 @@ textarea {
 
 /*-- /Section 5 - Leistungen Page --*/
 
+/*-- Section 1 - Impressum --*/
+
+.article h1 {
+    font-size: 34px;
+    line-height: 47px;
+}
+
+.article h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.article h4 {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.article h2 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/*-- /Section 1 - Impressum --*/
+
 /*-- Footer --*/
 
 .footer_bootom_row {
@@ -2241,6 +2279,43 @@ p {
 }
 
 /*-- /Section 5 - Leistungen Page --*/
+
+/*-- Section 1 - Impressum --*/
+
+.article {
+    padding: 24px 0 65px 0;
+}
+
+.article h1 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.article h4 {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.article h3 {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.article h2 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/*-- /Section 1 - Impressum --*/
+
+/*-- Header --*/
+
+.header_site_inner_2 {
+	background: url(img/tectareal_header_leistungen_resp.jpg);
+	background-size: cover;
+}
+
+/*-- /Header --*/
 
 }
 
