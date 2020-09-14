@@ -17,9 +17,9 @@
 	<div class="wrapper">
 
 	<!-- Header -->
-		
+
 	<header>
-		<div class="header_site">
+		<div class="header_site" id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -110,6 +118,28 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Scroll Menu -->
+		<div class="scroll_menu" id="scrollMenu">
+			<div class="header_row">
+				<div class="header_templ">
+					<div class="left">
+						<a href="#" class="logo_resp">
+							<img src="img/logo_resp.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<button class="respmenubtn respmenubtn_2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Scroll Menu -->
+
 	</header>
 
 	<div class="bg"></div>
@@ -210,10 +240,11 @@
 		<!-- Section 3 - Unhernehmen Page -->
 
 		<section>
-			<div class="slider_2_wrapp tab_slider_wrapp" style="background-color: #B19900;">
-				<div class="row">
-					<div class="slider_nav_wrapp">
-						<ul class="slider_nav white" data-slider-nav = "slider_2">
+			<div class="slider_2_wrapp">
+				<div class="slider_2_bg" style="background:#29A4D3;" data-slbackgprund = "slider_2"></div>
+				<div class="slider_nav_wrapp">
+					<div class="row">
+						<ul class="slider_nav slider_nav_sl_2 white" data-slider-nav = "slider_2">
 							<li>
 								<a href="#" data-sl-index = "sl_1">Das macht uns aus</a>
 							</li>
@@ -225,35 +256,19 @@
 							</li>
 						</ul>
 					</div>
-					<div class="slider_2_cols tab_slider_arrows" data-tabslider-arrows = "slider_2">
-						<div class="left">
-							<div class="slider_2_images" data-slider-images = "slider_2">
-								<div class="slide_2_image" data-sl-index = "sl_1">
-									<div class="img_wrapp">
-										<div class="img_box">
-											<img src="img/slide_2_img.jpg" alt="" />
+				</div>
+				<div class="slider_2 respDestroy infinite" data-slider = "slider_2">
+					<div class="slide slide_2 slide_2_1" data-background="#29A4D3" data-sl-index = "sl_1">
+						<div class="row">
+							<div class="slide_2_templ">
+								<div class="left">
+									<div class="slide_2_image slide_2_image_1">
+										<div class="img_wrapp">
+											<div class="img_box" style="background-image: url(img/unh_sl_1.jpg);"></div>
 										</div>
 									</div>
 								</div>
-								<div class="slide_2_image" data-sl-index = "sl_2">
-									<div class="img_wrapp">
-										<div class="img_box">
-											<img src="img/slide_2_2_img.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-								<div class="slide_2_image" data-sl-index = "sl_3">
-									<div class="img_wrapp">
-										<div class="img_box">
-											<img src="img/slide_2_3_img.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="right">
-							<div class="slider_2 tab_slider infinite" data-slider = "slider_2">
-								<div class="slide slide_2" data-background="#29A4D3" data-sl-index = "sl_1">
+								<div class="right">
 									<div class="slide_2_header">
 										<p>Das macht uns aus</p>
 										<h2>Das Beste aus 2 Welten – einzigartig in der Immobilienwelt</h2>
@@ -262,7 +277,20 @@
 										<p>Tectareal wurde 2014 aus dem HOCHTIEF Konzern herausgelöst und sehr erfolgreich in das mittelständische Unternehmen Tectareal Property Management überführt. Wir verbinden die Prozesssicherheit eines Konzerns mit der Flexibilität des Mittelstands: Eine einzigartige Verbindung, die alle Vorteile des modernen Property Managements vereint!</p>
 									</div>
 								</div>
-								<div class="slide slide_2" data-background="#1A6C89" data-sl-index = "sl_2">
+							</div>
+						</div>
+					</div>
+					<div class="slide slide_2 slide_2_2" data-background="#1A6C89" data-sl-index = "sl_2">
+						<div class="row">
+							<div class="slide_2_templ">
+								<div class="left">
+									<div class="slide_2_image slide_2_image_2">
+										<div class="img_wrapp">
+											<div class="img_box" style="background-image: url(img/unh_sl_2.jpg);"></div>
+										</div>
+									</div>
+								</div>
+								<div class="right">
 									<div class="slide_2_header">
 										<p>Unser Versprechen</p>
 										<h2>Ihr Partner auf Augenhöhe</h2>
@@ -272,7 +300,20 @@
 										<p>Machen Sie dieses Know-how zu Ihrem Know-how! Denn bei Tectareal wird Wissenstransfer gelebt!</p>
 									</div>
 								</div>
-								<div class="slide slide_2" data-background="#B19900" data-sl-index = "sl_3">
+							</div>
+						</div>
+					</div>
+					<div class="slide slide_2 slide_2_3" data-background="#B19900" data-sl-index = "sl_3">
+						<div class="row">
+							<div class="slide_2_templ">
+								<div class="left">
+									<div class="slide_2_image slide_2_image_3">
+										<div class="img_wrapp">
+											<div class="img_box" style="background-image: url(img/unh_sl_3.jpg);"></div>
+										</div>
+									</div>
+								</div>
+								<div class="right">
 									<div class="slide_2_header">
 										<p>Unser Ziel – Ihr Erfolg</p>
 										<h2>Digital nehmen wir Speed für Sie auf</h2>
@@ -283,11 +324,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="sider_2_controls tab_slider_controls" data-tabslider-controls = "slider_2"></div>
 					</div>
-					<!-- <div class="sider_2_arrows"></div> -->
-					<!-- <div class="sider_2_controls"></div> -->
 				</div>
+				<div class="slider_2_arrows">
+					<div class="row" data-tabslider-arrows = "slider_2"></div>
+				</div>
+				<div class="sider_2_controls tab_slider_controls" data-tabslider-controls = "slider_2"></div>
 			</div>
 		</section>
 
@@ -312,6 +354,7 @@
 									<li>Verlässlichkeit durch Kenntnisse der lokalen Gegebenheiten</li>
 									<li>Vor-Ort-Büro für Ihre zu betreuende Immobilie möglich</li>
 								</ul>
+								<a href="#" class="olive_pill_2 olive_pill_2_2">Zu den Standorten ></a>
 							</div>
 						</div>
 					</div>
@@ -391,6 +434,12 @@
 								<p>Mietverträge</p>
 							</div>
 						</div>
+						<div class="col">
+							<div>
+								<h3>> 300</h3>
+								<p>Miatarbeiter</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -406,23 +455,26 @@
 				<h2>Tectareal Tochterunternehmen</h2>
 			</div>
 			<div class="row">
-				<ul class="logos_nav logos_nav_items" data-tabslider-logosnav = "slider_3">
-					<li data-sl-index = "sl_1_3">
-						<a href="#" class="logo_box">
-							<img src="img/tectareal_solutions.svg" alt="" />
-						</a>
-					</li>
-					<li data-sl-index = "sl_2_3">
-						<a href="#" class="logo_box">
-							<img src="img/tectareal_premium.svg" alt="" />
-						</a>
-					</li>
-					<li data-sl-index = "sl_3_3">
-						<a href="#" class="logo_box">
-							<img src="img/tectareal_controlling.svg" alt="" />
-						</a>
-					</li>
-				</ul>
+				<div class="logos_nav_wrapp">
+					<div class="logos_tr"></div>
+					<ul class="logos_nav logos_nav_items" data-tabslider-logosnav = "slider_3">
+						<li data-sl-index = "sl_1_3">
+							<a href="#" class="logo_box">
+								<img src="img/tectareal_solutions.svg" alt="" />
+							</a>
+						</li>
+						<li data-sl-index = "sl_2_3">
+							<a href="#" class="logo_box">
+								<img src="img/tectareal_premium.svg" alt="" />
+							</a>
+						</li>
+						<li data-sl-index = "sl_3_3">
+							<a href="#" class="logo_box">
+								<img src="img/tectarial_property.svg" alt="" />
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="slider_3_wrapp">
 				<div class="slider_3_controls" data-tabslider-controls = "slider_3"></div>
@@ -436,7 +488,7 @@
 								<a href="#" data-sl-index = "sl_2_3">Tectareal Premium</a>
 							</li>
 							<li>
-								<a href="#" data-sl-index = "sl_3_3">Tectareal Controlling</a>
+								<a href="#" data-sl-index = "sl_3_3">Tectareal Property Controlling</a>
 							</li>
 						</ul>
 					</div>
@@ -484,7 +536,7 @@
 						</div>
 						<div class="slide slide_3" data-sl-index = "sl_3_3">
 							<div class="slide_3_header">
-								<h2>Tectareal Controlling</h2>
+								<h2>Tectareal Property Controlling</h2>
 								<h4>Controlling von Auslandsimmobilien auch ohne PM-Mandat</h4>
 							</div>
 							<div class="slide_3_content">
@@ -522,8 +574,7 @@
 						<li data-sl-index = "sl_4_1">
 							<a href="#">
 								<div class="person_item">
-									<div class="photo_box">
-										<img src="img//wooman.jpg" alt="" />
+									<div class="photo_box" style="background-image: url(img/wooman.jpg);">
 									</div>
 									<p>Gertrud Wesemeyer</p>
 									<p>Kaufm. Geschäftsleitung</p>
@@ -533,8 +584,7 @@
 						<li data-sl-index = "sl_4_2">
 							<a href="#">
 								<div class="person_item">
-									<div class="photo_box">
-										<img src="img/man.jpg" alt="" />
+									<div class="photo_box" style="background-image: url(img/man.jpg);">
 									</div>
 									<p>Roland Lass</p>
 									<p>Techn. Geschäftsleitung</p>
@@ -544,6 +594,7 @@
 					</ul>
 				</div>
 				<div class="tab_slider_wrapp tab_slider_4_wrapp">
+					<div class="slider_4_bg" style="background:#29A4D3;" data-slbackgprund = "slider_4"></div>
 					<div class="slider_4_controls" data-tabslider-controls = "slider_4"></div>
 					<div class="slider_4 tab_slider" data-slider = "slider_4">
 						<div class="slide slide_4" data-sl-index = "sl_4_1" data-background = "#8B7A00" >
@@ -579,12 +630,11 @@
 							<h3>Ihr persönlicher Ansprechpartner</h3>
 							<div class="manager_article">
 								<div>
-									<div class="photo_box_3">
-										<img src="img/foerstner.jpg" alt="" />
+									<div class="photo_box_3" style="background-image: url(img/klann_sabine.jpg);">
 									</div>
 								</div>
 								<div>
-									<h3>Lena Förster</h3>
+									<h3>Sabine Klann</h3>
 									<p><a href="mailto:info@tectareal.de">info@tectareal.de</a></p>
 								</div>
 							</div>
@@ -594,21 +644,21 @@
 						<div class="form_wrapp">
 							<form>
 								<div class="input_wrapp">
-									<input type="email" placeholder="E-Mail" />
+									<input type="email" placeholder="E-Mail*" />
 								</div>
 								<div class="form_two_cols">
 									<div class="input_wrapp">
-										<input type="text" placeholder="Name" />
+										<input type="text" placeholder="Name*" />
 									</div>
 									<div class="input_wrapp">
-										<input type="text" placeholder="Vorname" />
+										<input type="text" placeholder="Vorname*" />
 									</div>
 								</div>
 								<div class="input_wrapp">
 									<input type="text" placeholder="Firma" />
 								</div>
 								<div class="input_wrapp">
-									<textarea placeholder="Nachricht"></textarea>
+									<textarea placeholder="Nachricht*"></textarea>
 								</div>
 								<div class="checkbox_wrapp">
 									<label class="checkbox"><input type="checkbox" name="#" />Hiermit erklären ich mich damit einverstanden, dass meine Daten zur Bearbeitung meines Anliegens verwendet werden. (Weitere Informationen und Widerrufshinweise hier: Datenschutzerklärung).</label>
@@ -621,7 +671,6 @@
 					</div>
 				</div>
 			</div>
-
 		</section>
 
 		<!-- /Section 5 - Main Page -->
@@ -662,8 +711,26 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer_nav_resp_wrapp">
+						<ul class="footer_nav_resp">
+							<li><a href="#" >Home</a></li>
+							<li><a href="#" >Kontakt</a></li>
+							<li><a href="#" >Unternehmen</a></li>
+							<li><a href="#" >Impressum</a></li>
+							<li><a href="#" >Leistungen</a></li>
+							<li><a href="#" >Datenschutz</a></li>
+							<li><a href="#" >Karriere</a></li>
+							<li>
+								<ul class="soc_list_resp">
+									<li><a href="#"><img src="img/fb.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/ln.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/soc.svg" alt="" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="footer_bootom_row">
 				<div class="row">
 					<div class="footer_bootom">

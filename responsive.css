@@ -8,6 +8,34 @@
 	    right: -24px;
 	}
 
+	.slider_2_arrows .slick-prev {
+	    left: -24px;
+	}
+
+	.slider_2_arrows .slick-next {
+	    right: -24px;
+	}
+
+	.slider_3_arrows .slick-prev {
+	    left: -24px;
+	}
+
+	.slider_3_arrows .slick-next {
+	    right: -24px;
+	}
+
+	.slider_3_arrows .slick-arrow {
+	    top: 12px;
+	}
+
+	.slider_4_arrows .slick-prev {
+	    left: 10px;
+	}
+
+	.slider_4_arrows .slick-next {
+	    right: 10px;
+	}
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -23,6 +51,26 @@
 	}
 
 /*-- /Header --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.map_section .left {
+    width: calc(100% - 550px);
+    padding-right: 2%;
+}
+
+.map_section .right {
+    width: 550px;
+}
+
+.map_wrapp {
+    position: relative;
+    transform: scale(.8);
+	top: -77px;
+	right: -10px;  
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
 
 }
 
@@ -48,6 +96,26 @@
 	}
 
 	/*-- /Section 4 - Main Page --*/
+
+	/*-- Section 3 - Unhernehmen Page --*/
+
+	.slider_2_arrows .slick-prev {
+	    left: 10px;
+	}
+
+	.slider_2_arrows .slick-next {
+	    right: 10px;
+	}
+
+	/*-- /Section 3 - Unhernehmen Page --*/
+
+	/*-- Section 2 -Leistungen  Page --*/
+
+	.thumb_2 {
+	    width: calc(50% - 20px);
+	}
+
+	/*-- /Section 2 - Leistungen Page --*/
 
 }
 
@@ -155,6 +223,66 @@ h1 {
 
 /*-- /Section 4 - Main Page --*/
 
+/*-- Section 2 - Unhernehmen Page --*/
+
+.sect_2_up {
+    padding: 90px 0 20px 0;
+}
+
+/*-- /Section 2 - Unhernehmen Page --*/
+
+/*-- Section 3 - Unhernehmen Page --*/
+
+.slide_2_image {
+    transform: scale(.7);
+    top: -65px;
+    position: relative;
+}
+
+.slider_2_wrapp .slider_2_bg {
+    height: calc(100% - 89px);
+}
+
+.slide_2_templ {
+    padding-bottom: 1px;
+}
+
+.slide_2_templ .left {
+    width: 400px;
+}
+
+.slide_2_templ .right {
+    width: calc(100% - 400px);
+}
+
+.slider_nav_sl_2 {
+    margin: 100px -15px 0 385px;
+}
+
+.slide_2_header h2 {
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.slide_2_content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*-- /Section 3 - Unhernehmen Page --*/
+
+/*-- Footer --*/
+
+.footer_bootom > div:nth-child(1) {
+    width: 35%;
+}
+
+.footer_bootom > div:nth-child(2) {
+    width: 65%;
+}
+
+/*-- /Footer --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -251,6 +379,12 @@ h1 {
     line-height: 23px;
 }
 
+.olive_pill_3 {
+    padding: 14px 20px 14px 20px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
 .card_thumb.map_bg:before {
     background-position: 88px 178px;
 }
@@ -290,7 +424,22 @@ h1 {
     line-height: 23px;
 }
 
+.olive_pill_2 {
+	min-width: 180px;
+    padding: 14px 20px 14px 20px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.sect_4_up {
+    padding-top: 80px;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
 
 /*-- Footer --*/
 
@@ -320,6 +469,10 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
 
+.row_2 {
+	padding: 0 30px;
+}
+
 /*-- Header --*/
 
 .logo_resp {
@@ -333,10 +486,6 @@ h1 {
 /*-- /Header --*/
 
 /*-- Section 3 - Main Page --*/
-
-/*	.person_article {
-	    margin: 30px 0 80px 0;
-	}*/
 
 	.person_article {
 	    margin: 60px 0 100px 0;
@@ -431,6 +580,187 @@ h1 {
 }
 
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 3 - Unhernehmen Page --*/
+
+.slide_2 {
+    padding-top: 40px;
+}
+
+.slide_2_templ .left {
+    width: 330px;
+}
+
+.slide_2_templ .right {
+    width: calc(100% - 330px);
+    padding: 72px 5% 10px 0;
+}
+
+.slider_2_wrapp .slider_2_bg {
+    height: calc(100% - 40px);
+}
+
+.slider_nav_sl_2 {
+    margin: 55px -15px 0 315px;
+}
+
+.slider_nav li a {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.slide_2_image {
+    transform: scale(.6);
+    top: -63px;
+    left: -31px;
+}
+
+.slide_2_header h2 {
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.slide_2_content {
+    padding: 20px 0;
+}
+
+.slide_2_content p {
+    font-size: 16px;
+}
+
+/*-- /Section 3 - Unhernehmen Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.sect_4_up {
+    padding-top: 35px;
+}
+
+.map_section {
+     margin-bottom: 20px;
+}
+
+.map_section .left {
+    width: calc(100% - 455px);
+    padding-right: 2%;
+}
+
+.map_section .right {
+    width: 455px;
+    min-height: 570px;
+    position: relative;
+}
+
+.map_wrapp {
+    position: absolute;
+    transform: scale(.7);
+	top: -132px;
+    right: -89px;
+}
+
+.map_article_header h4 {
+    font-size: 20px;
+}
+
+.map_article_header h2 {
+	font-size: 36px;
+    line-height: 47px;
+}
+
+.map_article_content {
+    padding: 15px 0 0 0;
+}
+
+.map_article_content p {
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.map_article_content ul {
+    padding: 20px 0;
+}
+
+.map_article_content ul li {
+    position: relative;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 5px 0 5px 30px;
+}
+
+.map_article_content ul li:before {
+    top: 14px;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 5 - Unhernehmen Page --*/
+
+.facts_templ h3 {
+	font-size: 22px;
+    line-height: 32px;
+}
+
+.facts_templ p {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+/*-- /Section 5 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.logo_box {
+    min-height: 192px;
+}
+
+.slide_3_header h2 {
+	padding: 5px 0;
+    font-size: 38px;
+    line-height: 49px;
+}
+
+.slide_3_header h4 {
+    padding: 5px 0;
+    font-size: 21px;
+}
+
+.slide_3_content {
+    padding: 10px 0;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 7 - Unhernehmen Page --*/
+
+.info_box p {
+    padding-bottom: 20px;
+   	font-size: 20px;
+    line-height: 30px;
+}
+
+.photos_nav {
+    max-width: 642px;
+    margin: 0 auto;
+}
+
+.person_item p {
+	font-size: 20px;
+    line-height: 27px;
+}
+
+/*-- /Section 7 - Unhernehmen Page --*/
+
+/*-- Section 3 - Leistungen Page --*/
+
+.logos_nav_items_2 {
+    margin-top: 20px;
+}
+
+.logos_nav_items_2 li {
+    width: 33.33%;
+}
+
+/*-- /Section 3 - Leistungen Page --*/
 
 }
 
@@ -585,6 +915,204 @@ input {
 
 /*-- /Section 5 - Main Page --*/
 
+/*-- Section 2 - Unhernehmen Page --*/
+
+.sect_2_up {
+    padding: 70px 0;
+}
+
+h2 {
+    font-size: 33px;
+    line-height: 44px;
+}
+
+p {
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.thumbnails_1 {
+    margin: 20px 0;
+}
+
+.thumb_1 {
+	width: 100%;
+    padding: 30px 0;
+}
+
+/*-- /Section 2 - Unhernehmen Page --*/
+
+/*-- Section 3 - Unhernehmen Page --*/
+
+.slider_2_bg {
+	display: none;
+}
+
+.slider_2_wrapp .slider_nav_wrapp {
+	display: none;
+}
+
+.slide_2_image {
+    transform: scale(.5);
+    top: 3px;
+    left: -49px;
+}
+
+.slide_2_templ .left {
+    width: 280px;
+    padding-top: 0;
+}
+
+.slide_2_templ .right {
+    width: calc(100% - 280px);
+    padding: 30px 0 10px 0;
+}
+
+.slide_2_2 * {
+	color: #000 !important;
+}
+
+.slide_2_2 h2 {
+    color: #8B7A00 !important;
+}
+
+.slide_2_image_2 .img_wrapp:after {
+    width: 100vw;
+}
+
+.slide_2_image_3 .img_wrapp:after {
+    width: 100vw;
+}
+
+.slide_2_1:nth-child(1) {
+    background: #29A4D3;
+}
+
+.slide_2_2:nth-child(2) {
+    background: #fff;
+}
+
+.slide_2_3:nth-child(3) {
+    background: #B19900;
+}
+
+/*-- /Section 3 - Unhernehmen Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.sect_4_up {
+    padding-top: 10px;
+}
+
+.map_article_header h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.map_article_header h4 {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.map_article_content p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.map_article_content ul li {
+	font-size: 15px;
+    line-height: 24px;    
+    padding: 5px 0 5px 22px;
+}
+
+.map_article_content ul li:before {
+	top: 13px;
+    width: 8px;
+    height: 8px;
+}
+
+.map_wrapp {
+    transform: scale(.5);
+    top: -193px;
+    right: -147px;
+}
+
+.map_section .left {
+    width: calc(100% - 350px);
+}
+
+.map_section .right {
+    width: 350px;
+    min-height: 430px;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.sect_6_up {
+    padding: 60px 0 50px 0;
+}
+
+.logos_nav_items {
+    margin-top: 70px;
+}
+
+.logo_box {
+    min-height: 160px;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 4 - Leistungen Page --*/
+
+.article_2 {
+    padding-left: 0;
+}
+
+.article_2 h2 {
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.article_2 h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+/*-- /Section 4 - Leistungen Page --*/
+
+/*-- Section 5 - Leistungen Page --*/
+
+.article_3_wrapp {
+    padding: 60px 0 50px 0;
+}
+
+.article_3 {
+    padding-left: 150px;
+}
+
+.article_3:before {
+    width: 130px;
+    height: 130px;
+}
+
+.article_3_header {
+    padding-bottom: 10px;
+}
+
+.article_3_header h2 {
+	font-size: 37px;
+    line-height: 49px;
+}
+
+.article_3_content p {
+	font-size: 18px;
+    line-height: 34px;
+}
+
+/*-- /Section 5 - Leistungen Page --*/
+
 /*-- Footer --*/
 
 .footer_bg {
@@ -619,6 +1147,11 @@ input {
 h1 {
     font-size: 46px;
     line-height: 60px;
+}
+
+p {
+    font-size: 19px;
+    line-height: 30px;
 }
 
 /*-- Header --*/
@@ -831,6 +1364,228 @@ textarea {
 
 /*-- /Section 5 - Main Page --*/
 
+/*-- Section 2 - Unhernehmen Page --*/
+
+.thumb_1 > div:nth-child(1) {
+    width: 120px;
+}
+
+.thumb_1 > div:nth-child(2) {
+    width: calc(100% - 120px);
+}
+
+.thumb_1_header {
+    padding-bottom: 10px;
+}
+
+.thumb_1_header h3 {
+    padding: 2px 0;
+    font-size: 30px;
+}
+
+.thumb_1_content p {
+    font-size: 19px;
+    line-height: 31px;
+}
+
+/*-- /Section 2 - Unhernehmen Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.map_section .left {
+    width: calc(100% - 266px);
+}
+
+.map_section .right {
+    width: 266px;
+    min-height: 330px;
+}
+
+.map_wrapp {
+    transform: scale(.4);
+    top: -232px;
+    right: -178px;
+}
+
+.map_article_header h4 {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.map_article_header h2 {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.map_article_content p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.map_article_content ul {
+    padding: 7px 0;
+}
+
+.city_link p {
+	display: none;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.sect_6_up {
+    padding-bottom: 24px;
+}
+
+.logo_box {
+    min-height: 130px;
+}
+
+.slider_3_arrows .slick-arrow {
+    top: 4px;
+}
+
+.slide_3_header h2 {
+    padding: 5px 0;
+    font-size: 29px;
+    line-height: 33px;
+}
+
+.slide_3_header h4 {
+    padding: 5px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.slide_3_content h4 {
+    padding: 20px 0 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.slide_3_content p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.buttons_wrapp {
+    margin: 13px -20px;
+}
+
+.slide_3_content ul li {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.slide_3_content ul li:before {
+    top: 10px;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 7 - Unhernehmen Page --*/
+
+.sect_7_up {
+    padding-top: 20px;
+}
+
+.info_box p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.person_item p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*-- /Section 7 - Unhernehmen Page --*/
+
+/*-- Section 3 - Leistungen Page --*/
+
+.slider_nav_5_wrapp {
+	display: none;
+}
+
+.logo_box_2 p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.slider_3_arrows {
+    position: relative;
+    top: -20px;
+}
+
+.slide_3 .slide_shape {
+	display: none;
+}
+
+.slide_3 {
+    padding: 10px 0 20px 0;
+}
+
+.slide_3_content iframe {
+    height: 330px;
+}
+
+.logo_box_2 {
+    padding: 0 10px 25px 10px;
+}
+
+.logo_box_2 .icon_box {
+    width: 90px;
+    height: 90px;
+    margin: 10px auto;
+}
+
+.logo_box_2 p {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+/*-- /Section 3 - Leistungen Page --*/
+
+/*-- Section 5 - Leistungen Page --*/
+
+.article_3 {
+    padding-left: 0;
+}
+
+.article_3:before {
+    top: -35px;
+    left: auto;
+    right: 0;
+}
+
+.article_3_search:before {
+	background-image: url(img/search_resp.svg);
+}
+
+.article_3_header {
+    padding-right: 132px;
+}
+
+/*-- /Section 5 - Leistungen Page --*/
+
+/*-- Footer --*/
+
+.footer_bootom_row {
+    padding: 20px 0;
+}
+
+.footer_bootom > div:nth-child(1) {
+	display: none;
+}
+
+.footer_bootom > div:nth-child(2) {
+    width: 100%;
+}
+
+/*-- /Footer --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -868,6 +1623,86 @@ textarea {
 }
 
 /*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Unhernehmen Page --*/
+
+.facts_sect {
+    padding: 0 0 20px 0;
+}
+
+.facts_templ {
+    padding: 15px 0;
+}
+
+.facts_templ h3 {
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.facts_templ p {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.facts_templ .col {
+    padding: 6px 10px;
+}
+
+/*-- /Section 5 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.slider_nav_3 {
+	display: none;
+}
+
+.slider_3_arrows .slick-arrow {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+    top: 81px;
+}
+
+.slider_3_arrows .slick-arrow:before {
+    background-size: 8px;
+}
+
+.logos_nav_items li {
+    padding: 0 10px;
+}
+
+.logo_box {
+    min-height: 120px;
+}
+
+.slider_nav_3_wrapp {
+    padding-bottom: 0;
+}
+
+.logos_tr {
+    border-width: 0 15.5px 15px 15.5px;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 2 -Leistungen  Page --*/
+
+.thumb_2_descript p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.transparent_pill {
+    padding: 14px 20px 14px 20px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.thumb_2_descript {
+    min-height: 111px;
+}
+
+/*-- /Section 2 -Leistungen  Page --*/
 
 /*-- Footer --*/
 
@@ -1042,6 +1877,371 @@ h1 {
 
 /*-- /Section 4 - Main Page --*/
 
+/*-- Section 1 - Unhernehmen Page --*/
+
+.promo_sect_2 .bg_image:before {
+    background-image: url(img/tectareal_header_unternehmen_resp.jpg);
+}
+
+/*-- /Section 1 - Unhernehmen Page --*/
+
+/*-- Section 2 - Unhernehmen Page --*/
+
+.sect_2_up {
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 37px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.info_box {
+    margin: 18px auto;
+}
+
+.thumbnails_1 {
+    margin: 10px 0;
+}
+
+.thumb_1 > div:nth-child(1) {
+    width: 70px;
+   	padding-right: 10px;
+}
+
+.thumb_1 > div:nth-child(2) {
+    width: calc(100% - 70px);
+}
+
+.thumb_1_header {
+    padding-bottom: 7px;
+}
+
+.thumb_1_header h3 {
+    padding: 0;
+    font-size: 18px;
+}
+
+.thumb_1_header p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.thumb_1_content p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*-- /Section 2 - Unhernehmen Page --*/
+
+/*-- Section 3 - Unhernehmen Page --*/
+
+.slider_2_wrapp {
+    padding-top: 40px;
+}
+
+.slide_2 {
+    padding-top: 70px;
+}
+
+.slide_2_templ {
+	position: relative;
+}
+
+.slide_2_templ .left {
+    width: 170px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slide_2_templ .right {
+    width: 100%;
+    padding: 50px 0 70px;
+}
+
+.slide_2_image {
+    transform: scale(1);
+}
+
+.slide_2_image .img_wrapp {
+    position: relative;
+    width: 170px;
+    height: 170px;
+}
+
+.slide_2_image .img_box {
+    width: 170px;
+    height: 170px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide_2_image_1 .img_wrapp:after {
+    width: 90px;
+    height: 130px;
+   	top: -12px;
+    right: -11px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide_2_image_1 .img_wrapp:before {
+    width: 180px;
+    height: 120px;
+    top: 63px;
+    left: -11px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide_2_image_1 {
+	top: -121px;
+    left: 0;
+}
+
+.slide_2_image_2 {
+    top: -127px;
+    left: 0;
+}
+
+.slide_2_image_3 {
+    top: -130px;
+    left: 0;
+}
+
+.slide_2_image_2 .img_wrapp:before {
+    width: 90px;
+    height: 130px;
+    top: -19px;
+    left: -17px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide_2_image_2 .img_wrapp:after {
+    width: 170px;
+    height: 125px;
+    top: 62px;
+    right: -14px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide_2_image_3 .img_wrapp:after {
+    width: 180px;
+    height: 120px;
+    top: 63px;
+    right: 0;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide_2_image_3 .img_wrapp:before {
+    width: 90px;
+    height: 125px;
+    top: -11px;
+    left: 91px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+/*-- /Section 3 - Unhernehmen Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.map_section {
+	position: relative;
+}
+
+.map_section .left {
+    width: 100%;
+}
+
+.map_section .right {
+    width: 183px;
+    min-height: 240px;
+    position: absolute;
+    top: 126px;
+    right: -18px;
+}
+
+.map_article_content {
+	padding: 15px 157px 0 0;
+}
+
+.map_wrapp {
+    transform: scale(.3);
+    top: -271px;
+    right: -210px;
+}
+
+.olive_pill_2_2 {
+    min-width: 100px;
+    padding: 14px 20px 14px 20px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 5 - Unhernehmen Page --*/
+
+.facts_templ {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.facts_templ h3 {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.facts_sect_header h3 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.facts_templ .col:after {
+    width: 1px;
+}
+
+/*-- /Section 5 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.logos_nav_items {
+    margin-top: 28px;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 2 -Leistungen  Page --*/
+
+.thumb_2 .icon_box {
+    height: 110px;
+    margin: 10px 0;
+}
+
+.thumb_2_descript p {
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.transparent_pill {
+    padding: 14px 15px 14px 15px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.thumb_2 {
+	margin: 5px;
+	width: calc(50% - 10px);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding: 20px;
+}
+
+.thumb_2 .transparent_pill {
+    padding: 11px 15px 11px 15px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/*-- /Section 2 -Leistungen  Page --*/
+
+/*-- Section 3 -Leistungen  Page --*/
+
+.logo_box_2 .icon_box {
+    width: 65px;
+    height: 65px;
+}
+
+.logo_box_2 p {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+/*-- /Section 3 -Leistungen  Page --*/
+
+/*-- Section 4 - Leistungen Page --*/
+
+.article_2_wrapp {
+    padding: 23px 0 8px 0;
+}
+
+.article_2:before {
+    width: 80px;
+    height: 80px;
+    top: -13px;
+    left: -22px;
+}
+
+.article_2 h2 {
+	padding: 10px 0 14px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.article_2 h4 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.article_2 ul {
+    padding: 17px 0;
+}
+
+.article_2 ul li {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.article_2 ul li:before {
+    width: 6px;
+    height: 6px;
+    top: 10px;
+}
+
+/*-- /Section 4 - Leistungen Page --*/
+
+/*-- Section 5 - Leistungen Page --*/
+
+.article_3_header h2 {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.article_3_content {
+    padding: 5px 0 5px 0;
+}
+
+.article_3_content p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.article_3_content .olive_pill_2 {
+    margin: 27px 0 10px 0;
+}
+
+.article_2 p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.article_2 .transparent_pill {
+    margin: 20px 0 30px;
+}
+
+/*-- /Section 5 - Leistungen Page --*/
+
 }
 
 
@@ -1126,9 +2326,6 @@ h1 {
 }
 
 .naim_nav > li {
-/*	display: inline-block;
-	vertical-align: top;
-	min-width: 146px;*/
     padding: 13px 32px 13px 0;
 }
 
@@ -1213,6 +2410,12 @@ h1 {
 }
 
 .olive_pill {
+    padding: 11px 15px 11px 15px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.olive_pill_2 {
     padding: 11px 15px 11px 15px;
     font-size: 16px;
     line-height: 23px;
@@ -1371,6 +2574,258 @@ h1 {
 
 /*-- /Section 5 - Main Page --*/
 
+/*-- Section 2 - Unhernehmen Page --*/
+
+.thumb_1 {
+    padding: 25px 0;
+}
+
+.thumb_1:nth-child(even) {
+	position: relative;
+}
+
+.thumb_1:nth-child(even) > div:nth-child(1) {
+    width: 70px;
+    padding-right: 0;
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+.thumb_1 > div:nth-child(2) {
+    width: 100%;
+}
+
+.thumb_1_content p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Unhernehmen Page --*/
+
+/*-- Section 3 - Unhernehmen Page --*/
+
+.slide_2_templ .right {
+	padding: 14px 0 117px;
+}
+
+.slide_2_header p {
+    font-size: 12px;
+}
+
+.slide_2_header h2 {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.slide_2_content {
+    padding: 16px 0;
+}
+
+.slide_2_content p {
+    font-size: 14px;
+}
+
+.slide_2_2 {
+	padding-top: 150px;
+}
+
+.slide_2_2 .slide_2_templ .left {
+    right: auto;
+    left: 0;
+}
+
+.slide_2_image_2 {
+    top: -184px;
+}
+
+.slide_2_image_3 {
+    top: -172px;
+}
+
+.slide_2_3 .slide_2_templ .right {
+    padding-bottom: 15px;
+}
+
+/*-- /Section 3 - Unhernehmen Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.map_article_header {
+    padding-right: 110px;
+}
+
+.map_section .right {
+    width: 122px;
+    min-height: 155px;
+    position: absolute;
+    top: -31px;
+    right: -16px;
+    z-index: 2;
+}
+
+.map_wrapp {
+    transform: scale(.2);
+    top: -310px;
+    right: -239px;
+}
+
+.map_article_content {
+    padding: 40px 0 0 0;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 5 - Unhernehmen Page --*/
+
+.facts_templ h3 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.facts_sect_header h3 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.facts_templ p {
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.facts_templ .col {
+    padding: 6px 5px;
+}
+
+/*-- /Section 5 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.logo_box {
+    min-height: 77px;
+}
+
+.slide_3_header h2 {
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.slide_3_header h4 {
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.slide_3_content p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.slide_3_content h4 {
+    padding: 20px 0 10px 0;
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.slide_3_content ul li {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.slide_3_content ul li:before {
+    top: 7px;
+}
+
+.slide_3_content .buttons_wrapp {
+	display: none;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 7 - Unhernehmen Page --*/
+
+.slider_4_wrapp {
+    padding: 10px 0 20px 0;
+}
+
+.person_item .photo_box {
+    margin: 0 auto 12px auto;
+}
+
+.photos_nav li {
+    padding-bottom: 39px;
+}
+
+.photos_nav li a:after {
+    border-width: 0 15px 16px 15px;
+    bottom: -41px;
+}
+
+.slider_4_arrows .row {
+    top: 36px;
+}
+
+.slider_4_arrows .slick-arrow {
+	top: 0;
+	margin-top: 0;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #fff;
+}
+
+.slider_4_arrows .slick-prev {
+    left: 5px;
+}
+
+.slider_4_arrows .slick-next {
+    right: 5px;
+}
+
+/*-- /Section 7 - Unhernehmen Page --*/
+
+/*-- Section 2 -Leistungen  Page --*/
+
+.thumb_2 .icon_box {
+    height: 71px;
+    margin: 10px 0;
+}
+
+.thumb_2_descript p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.thumb_2_descript {
+    min-height: 80px;
+}
+
+.thumb_2 .transparent_pill {
+	border: 1px solid #fff;
+}
+
+.slide_3_content iframe {
+    height: 200px;
+    margin: 10px 0;
+}
+
+/*-- /Section 2 -Leistungen  Page --*/
+
+/*-- Section 5 - Leistungen Page --*/
+
+.article_3_header {
+    padding-right: 50px;
+}
+
+.article_3:before {
+	width: 70px;
+    height: 70px;
+    top: -8px;
+    right: -18px;
+}
+
+/*-- /Section 5 - Leistungen Page --*/
+
 /*-- Footer --*/
 
 .footer_bg {
@@ -1416,7 +2871,28 @@ h1 {
     height: 25px;
  }
 
+ p.corp_p {
+    font-size: 10px;
+    line-height: 14px;
+}
+
 /*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 450px) {
+
+/*-- Section 3 - Leistungen Page --*/
+
+.logo_box_2 {
+    padding: 0 10px 17px 10px;
+}
+
+.logos_nav_items_2 li {
+    width: 50%;
+}
+
+/*-- .Section 3 - Leistungen Page --*/
 
 }
 
@@ -1425,6 +2901,11 @@ h1 {
 h1 {
     font-size: 24px;
     line-height: 33px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 26px;
 }
 
 /*-- Section 1 - Main Page --*/
@@ -1509,6 +2990,14 @@ h1 {
     border-width: 1px;
 }
 
+.olive_pill_2 {
+	min-width: 140px;
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+    line-height: 19px;
+    border-width: 1px;
+}
+
 .card_thumb_content p {
     padding: 0;
     font-size: 14px;
@@ -1574,7 +3063,141 @@ h1 {
     line-height: 19px;
 }
 
+.olive_pill_2 {
+    min-width: 140px;
+    padding: 6px 15px 6px 15px;
+    font-size: 12px;
+    line-height: 19px;
+}
+
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 2 - Unhernehmen Page --*/
+
+.info_box p {
+    padding-bottom: 0px;
+}
+
+/*-- Section 2 - Unhernehmen Page --*/
+
+/*-- Section 4 - Unhernehmen Page --*/
+
+.map_article_header h2 {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.map_article_header h4 {
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.map_article_content p {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.map_article_content ul li {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 5px 0 5px 22px;
+}
+
+.map_article_content ul li:before {
+    top: 10px;
+}
+
+/*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 5 - Unhernehmen Page --*/
+
+.sect_5_up {
+    padding: 10px 0;
+}
+
+.facts_sect_header h3 {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.facts_templ {
+	margin: 0 -20px;
+}
+
+.facts_templ h3 {
+    font-size: 10px;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+/*-- /Section 5 - Unhernehmen Page --*/
+
+/*-- Section 6 - Unhernehmen Page --*/
+
+.logo_box {
+    min-height: 60px;
+}
+
+/*-- /Section 6 - Unhernehmen Page --*/
+
+/*-- Section 7 - Unhernehmen Page --*/
+
+.person_item p {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.info_box p {
+    padding-bottom: 15px;
+}
+
+.slide_4 h3 {
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.slide_4 {
+    padding: 25px 0;
+}
+
+/*-- /Section 7 - Unhernehmen Page --*/
+
+/*-- Section 2 -Leistungen  Page --*/
+
+.thumbnails_2 {
+    margin: 50px -10px 20px -10px;
+}
+
+.thumb_2 {
+    padding: 5px 10px 15px 10px;
+}
+
+.thumb_2:nth-child(odd) {
+	position: relative;
+	top: -30px;
+}
+
+.thumb_2 .icon_box {
+    margin: 4px 0;
+}
+
+.thumb_2 .transparent_pill {
+    padding: 7px;
+    font-size: 10px;
+    line-height: 18px;
+    min-width: 100%;
+}
+
+.thumb_2_descript {
+    min-height: 60px;
+}
+
+.thumb_2_descript p {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+/*-- /Section 2 -Leistungen  Page --*/
 
 }
 

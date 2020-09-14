@@ -17,9 +17,9 @@
 	<div class="wrapper">
 
 	<!-- Header -->
-		
+
 	<header>
-		<div class="header_site">
+		<div class="header_site" id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -110,6 +118,28 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Scroll Menu -->
+		<div class="scroll_menu" id="scrollMenu">
+			<div class="header_row">
+				<div class="header_templ">
+					<div class="left">
+						<a href="#" class="logo_resp">
+							<img src="img/logo_resp.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<button class="respmenubtn respmenubtn_2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Scroll Menu -->
+
 	</header>
 
 	<div class="bg"></div>
@@ -209,62 +239,65 @@
 				</div>
 			</div>
 			<div class="row">
-				<ul class="logos_nav logos_nav_items logos_nav_items_2" data-tabslider-logosnav = "slider_5">
-					<li data-sl-index = "sl_1_5">
-						<a href="#" class="logo_box_2">
-							<div class="icon_box">
-								<img class="visible_icon" src="img/tab_icons/icon_10.svg" alt="" />
-								<img class="hover_icon" src="img/tab_icons/icon_10_hover.svg" alt="" />
-							</div>
-							<p>Kaufmännisches PM</p>
-						</a>
-					</li>
-					<li data-sl-index = "sl_2_5">
-						<a href="#" class="logo_box_2">
-							<div class="icon_box">
-								<img class="visible_icon" src="img/tab_icons/icon_11.svg" alt="" />
-								<img class="hover_icon" src="img/tab_icons/icon_11_hover.svg" alt="" />
-							</div>
-							<p>Reporting</p>
-						</a>
-					</li>
-					<li data-sl-index = "sl_3_5">
-						<a href="#" class="logo_box_2">
-							<div class="icon_box">
-								<img class="visible_icon" src="img/tab_icons/icon_12.svg" alt="" />
-								<img class="hover_icon" src="img/tab_icons/icon_12_hover.svg" alt="" />
-							</div>
-							<p>Vermietung</p>
-						</a>
-					</li>
-					<li data-sl-index = "sl_4_5">
-						<a href="#" class="logo_box_2">
-							<div class="icon_box">
-								<img class="visible_icon" src="img/tab_icons/icon_13.svg" alt="" />
-								<img class="hover_icon" src="img/tab_icons/icon_13_hover.svg" alt="" />
-							</div>
-							<p>Mieter-management</p>
-						</a>
-					</li>
-					<li data-sl-index = "sl_5_5">
-						<a href="#" class="logo_box_2">
-							<div class="icon_box">
-								<img class="visible_icon" src="img/tab_icons/icon_14.svg" alt="" />
-								<img class="hover_icon" src="img/tab_icons/icon_14_hover.svg" alt="" />
-							</div>
-							<p>Technisches PM</p>
-						</a>
-					</li>
-					<li data-sl-index = "sl_6_5">
-						<a href="#" class="logo_box_2">
-							<div class="icon_box">
-								<img class="visible_icon" src="img/tab_icons/icon_15.svg" alt="" />
-								<img class="hover_icon" src="img/tab_icons/icon_15_hover.svg" alt="" />
-							</div>
-							<p>Technisches FM</p>
-						</a>
-					</li>
-				</ul>
+				<div class="logos_nav_wrapp">
+					<div class="logos_tr"></div>
+					<ul class="logos_nav logos_nav_items logos_nav_items_2" data-tabslider-logosnav = "slider_5">
+						<li data-sl-index = "sl_1_5">
+							<a href="#" class="logo_box_2">
+								<div class="icon_box">
+									<img class="visible_icon" src="img/tab_icons/icon_10.svg" alt="" />
+									<img class="hover_icon" src="img/tab_icons/icon_10_hover.svg" alt="" />
+								</div>
+								<p>Kaufmännisches PM</p>
+							</a>
+						</li>
+						<li data-sl-index = "sl_2_5">
+							<a href="#" class="logo_box_2">
+								<div class="icon_box">
+									<img class="visible_icon" src="img/tab_icons/icon_11.svg" alt="" />
+									<img class="hover_icon" src="img/tab_icons/icon_11_hover.svg" alt="" />
+								</div>
+								<p>Reporting</p>
+							</a>
+						</li>
+						<li data-sl-index = "sl_3_5">
+							<a href="#" class="logo_box_2">
+								<div class="icon_box">
+									<img class="visible_icon" src="img/tab_icons/icon_12.svg" alt="" />
+									<img class="hover_icon" src="img/tab_icons/icon_12_hover.svg" alt="" />
+								</div>
+								<p>Vermietung</p>
+							</a>
+						</li>
+						<li data-sl-index = "sl_4_5">
+							<a href="#" class="logo_box_2">
+								<div class="icon_box">
+									<img class="visible_icon" src="img/tab_icons/icon_13.svg" alt="" />
+									<img class="hover_icon" src="img/tab_icons/icon_13_hover.svg" alt="" />
+								</div>
+								<p>Mieter-management</p>
+							</a>
+						</li>
+						<li data-sl-index = "sl_5_5">
+							<a href="#" class="logo_box_2">
+								<div class="icon_box">
+									<img class="visible_icon" src="img/tab_icons/icon_14.svg" alt="" />
+									<img class="hover_icon" src="img/tab_icons/icon_14_hover.svg" alt="" />
+								</div>
+								<p>Technisches PM</p>
+							</a>
+						</li>
+						<li data-sl-index = "sl_6_5">
+							<a href="#" class="logo_box_2">
+								<div class="icon_box">
+									<img class="visible_icon" src="img/tab_icons/icon_15.svg" alt="" />
+									<img class="hover_icon" src="img/tab_icons/icon_15_hover.svg" alt="" />
+								</div>
+								<p>Technisches FM</p>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="slider_5_wrapp">
 				<div class="slider_5_controls" data-tabslider-controls = "slider_5"></div>
@@ -292,7 +325,7 @@
 						</ul>
 					</div>
 					<div class="slider_3_arrows" data-tabslider-arrows = "slider_5"></div>
-					<div class="slider_5 tab_slider adaptiveHeight" data-slider = "slider_5">
+					<div class="slider_5 tab_slider infinite adaptiveHeight" data-slider = "slider_5">
 						<div class="slide slide_3" data-sl-index = "sl_1_5">
 							<img class="slide_shape slide_shape_e" src="img/icon_01_big.svg" alt="" />
 							<div class="slide_content">
@@ -440,7 +473,7 @@
 
 		<section class="article_3_wrapp">
 			<div class="row">
-				<div class="article_3">
+				<div class="article_3 article_3_search">
 					<div class="article_3_header">
 						<p>Verkaufen und Investieren</p>
 						<h2>Due Diligence Prozess</h2>
@@ -513,12 +546,11 @@
 							<h3>Ihr persönlicher Ansprechpartner</h3>
 							<div class="manager_article">
 								<div>
-									<div class="photo_box_3">
-										<img src="img/foerstner.jpg" alt="" />
+									<div class="photo_box_3" style="background-image: url(img/klann_sabine.jpg);">
 									</div>
 								</div>
 								<div>
-									<h3>Lena Förster</h3>
+									<h3>Sabine Klann</h3>
 									<p><a href="mailto:info@tectareal.de">info@tectareal.de</a></p>
 								</div>
 							</div>
@@ -528,21 +560,21 @@
 						<div class="form_wrapp">
 							<form>
 								<div class="input_wrapp">
-									<input type="email" placeholder="E-Mail" />
+									<input type="email" placeholder="E-Mail*" />
 								</div>
 								<div class="form_two_cols">
 									<div class="input_wrapp">
-										<input type="text" placeholder="Name" />
+										<input type="text" placeholder="Name*" />
 									</div>
 									<div class="input_wrapp">
-										<input type="text" placeholder="Vorname" />
+										<input type="text" placeholder="Vorname*" />
 									</div>
 								</div>
 								<div class="input_wrapp">
 									<input type="text" placeholder="Firma" />
 								</div>
 								<div class="input_wrapp">
-									<textarea placeholder="Nachricht"></textarea>
+									<textarea placeholder="Nachricht*"></textarea>
 								</div>
 								<div class="checkbox_wrapp">
 									<label class="checkbox"><input type="checkbox" name="#" />Hiermit erklären ich mich damit einverstanden, dass meine Daten zur Bearbeitung meines Anliegens verwendet werden. (Weitere Informationen und Widerrufshinweise hier: Datenschutzerklärung).</label>
@@ -555,7 +587,6 @@
 					</div>
 				</div>
 			</div>
-
 		</section>
 
 		<!-- /Section 5 - Main Page -->
@@ -596,8 +627,26 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer_nav_resp_wrapp">
+						<ul class="footer_nav_resp">
+							<li><a href="#" >Home</a></li>
+							<li><a href="#" >Kontakt</a></li>
+							<li><a href="#" >Unternehmen</a></li>
+							<li><a href="#" >Impressum</a></li>
+							<li><a href="#" >Leistungen</a></li>
+							<li><a href="#" >Datenschutz</a></li>
+							<li><a href="#" >Karriere</a></li>
+							<li>
+								<ul class="soc_list_resp">
+									<li><a href="#"><img src="img/fb.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/ln.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/soc.svg" alt="" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="footer_bootom_row">
 				<div class="row">
 					<div class="footer_bootom">
