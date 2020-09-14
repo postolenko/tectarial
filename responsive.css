@@ -776,6 +776,20 @@ h1 {
 
 /*-- /Section 1 - Impressum --*/
 
+/*-- Section 3 - Stelle Page --*/
+
+.filters > div {
+    width: 33.33%;
+    padding: 10px 10px;
+}
+
+.filters > div:last-child {
+    width: 100%;
+    text-align: right;
+}
+
+/*-- /Section 3 - Stelle Page --*/
+
 }
 
 
@@ -1608,6 +1622,62 @@ textarea {
 
 /*-- /Section 1 - Impressum --*/
 
+/*-- Section 5 - Main Page --*/
+
+.file_pill {
+    min-width: 111px;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.file_text {
+	padding: 6px 0 0 10px;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.submit_wrapp {
+    padding: 5px 0 5px 0;
+}
+
+.files_upload_footer p {
+    font-size: 10px;
+    line-height: 18px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 1 - Stelle --*/
+
+.article ul li {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+/*-- /Section 1 - Stelle --*/
+
+/*-- Section 3 - Stelle Page --*/
+
+.sect_3_sp {
+    padding: 45px 0 29px 0;
+}
+
+.filters {
+    margin: 25px -10px 15px -10px;
+}
+
+.filters > div {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.filters > div:last-child {
+    width: 50%;
+}
+
+/*-- /Section 3 - Stelle Page --*/
+
 /*-- Footer --*/
 
 .footer_bootom_row {
@@ -2210,7 +2280,7 @@ p {
 /*-- Section 4 - Leistungen Page --*/
 
 .article_2_wrapp {
-    padding: 23px 0 8px 0;
+    padding: 23px 0 30px 0;
 }
 
 .article_2:before {
@@ -2283,7 +2353,7 @@ p {
 /*-- Section 1 - Impressum --*/
 
 .article {
-    padding: 24px 0 65px 0;
+    padding: 24px 0 50px 0;
 }
 
 .article h1 {
@@ -2308,12 +2378,76 @@ p {
 
 /*-- /Section 1 - Impressum --*/
 
+/*-- Section 1 - Stelle --*/
+
+.article ul li {
+	padding-left: 20px;
+	font-size: 14px;
+    line-height: 20px;
+}
+
+.article ul li:before {
+    width: 7px;
+    height: 7px;
+    top: 6px;
+}
+
+/*-- /Section 1 - Stelle --*/
+
+/*-- Section 3 - Stelle Page --*/
+
+.dropdown_box_title {
+    height: 30px;
+    padding: 0 15px;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.dropdown_box_title:after {
+    width: 20px;
+    height: 20px;
+    margin-top: -9px;
+}
+
+.dropdown_box_title p {
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.search_btn_wrapp .olive_pill {
+	min-width: 100%;
+	width: 100%;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.search_btn_wrapp a {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.dropdown_box_title:after {
+    right: 5px;
+}
+
+.filters > div {
+    padding: 5px;
+}
+
+.search_btn_wrapp a {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/*-- /Section 3 - Stelle Page --*/
+
 /*-- Header --*/
 
-.header_site_inner_2 {
+/*.header_site_inner_2 {
 	background: url(img/tectareal_header_leistungen_resp.jpg);
 	background-size: cover;
-}
+}*/
 
 /*-- /Header --*/
 
@@ -3128,7 +3262,8 @@ h2 {
 /*-- Section 5 - Main Page --*/
 
 .submit_wrapp {
-    padding: 17px 0;
+    /*padding: 17px 0;*/
+    padding: 10px 0;
 }
 
 .transparent_pill_3 {
@@ -3273,6 +3408,19 @@ h2 {
 }
 
 /*-- /Section 2 -Leistungen  Page --*/
+
+}
+
+@media only screen and (max-width: 380px) {
+
+/*-- Section 1_2 - Stelle --*/
+
+	.manager_article p, .manager_article p a {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+
+/*-- /Section 1_2 - Stelle --*/
 
 }
 

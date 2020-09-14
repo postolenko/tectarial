@@ -1470,8 +1470,8 @@ textarea:focus {
     -moz-border-radius: 39px;
     border-radius: 39px;
     padding: 14px 30px 14px 29px;
-    border: 2px solid #fff;
-    background: rgba(139, 122, 0, .75);
+    border: 1px solid #8B7A00;
+    background: #8B7A00;
     font-weight: normal;
     font-size: 21px;
     line-height: 30px;
@@ -1500,7 +1500,7 @@ textarea:focus {
 
 .olive_pill:link,
 .olive_pill:visited {
-    background: rgba(139, 122, 0, .75);
+    background: #8B7A00;
     color: #fff;
 }
 
@@ -1912,8 +1912,8 @@ textarea:focus {
 
 .manager_article h3 {
     font-weight: bold;
-    font-size: 28px;
-    line-height: 37px;
+    font-size: 25px;
+    line-height: 33px;
     color: #000;
 }
 
@@ -1923,8 +1923,8 @@ textarea:focus {
 
 .manager_article p,
 .manager_article p a {
-    font-size: 28px;
-    line-height: 37px;
+    font-size: 26px;
+    line-height: 30px;
 }
 
 .photo_box_3 {
@@ -4328,6 +4328,10 @@ p.testimonial_author {
 .contacts_article_2 input,
 .contacts_article_2 textarea {
     background-color: transparent;
+}
+
+.manager_wrapp_2 {
+    margin: 54px 0 20px 0;
 }
 
 /*-- /Section 2 - Stelle Page --*/

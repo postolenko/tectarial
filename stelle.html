@@ -19,7 +19,7 @@
 	<!-- Header -->
 		
 	<header>
-		<div class="header_site header_site_inner header_site_inner_2">
+		<div class="header_site header_site_inner header_site_inner_2"  id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -110,6 +118,27 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Scroll Menu -->
+		<div class="scroll_menu" id="scrollMenu">
+			<div class="header_row">
+				<div class="header_templ">
+					<div class="left">
+						<a href="#" class="logo_resp">
+							<img src="img/logo_resp.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<button class="respmenubtn respmenubtn_2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Scroll Menu -->
 	</header>
 
 	<div class="bg"></div>
@@ -128,7 +157,7 @@
 
 					<h4>München | ab sofort | Referenznummer</h4>
 					<h1>Facility Manager (m/w/d)</h1>
-					<br /><br /><br />
+					<br /><br />
 
 					<h3>Was wir Ihnen bieten</h3>
 					<br />
@@ -141,7 +170,7 @@
 						<li>Sie erwarten flache Hierarchien und eine leistungsgerechte Vergütung</li>
 						<li>Unser Team nimmt Sie herzlich auf</li>
 					</ul>
-					<br /><br /><br />
+					<br /><br />
 					<h3>Ihr Profi</h3>
 					<br />
 					<ul>
@@ -152,7 +181,7 @@
 						<li>Sie sind belastbar und verfügen über eine ausgeprägte Dienstleistungsmentalität</li>
 						<li>Sie freuen sich auf abwechslungsreiche Herausforderungen</li>
 					</ul>
-					<br /><br /><br />
+					<br /><br />
 					<h3>Ihre Aufgaben</h3>
 					<br />
 					<ul>
@@ -182,6 +211,26 @@
 
 		<!-- /Section 1 - Stelle -->
 
+		<!-- Section 1_2 - Stelle -->
+
+		<section class="article_2_wrapp">
+			<div class="row">
+				<div class="article_2">
+					<div class="inner">
+						<h2>Ihr neuer Arbeitgeber Tectareal</h2>
+						<br>
+						<p>Tectareal ist einer der führenden Anbieter integrierter Property Management Lösungen in Deutschland. Mit einer Fläche von 13 Mio. Quadratmetern und 11 Mrd. Euro Assets under Management bieten wir nationalen und internationalen Immobilieninvestoren ein breites Leistungsspektrum rund um die Immobilie an.</p>
+
+						<p>„Real Quality for Real Estate“ bedeutet für uns, dass wir auf die Interessen unserer Kunden optimal und individuell eingehen und als Vertreter von Eigentümerinteressen nachhaltig zur Optimierung von Immobilieninvestments beitragen. Unser ganzheitlicher Ansatz, verbunden mit unserem hohen Serviceanspruch, steht für unsere Firmenphilosophie.</p>
+
+						<p>Unsere Kunden sind Privatinvestoren, institutionelle Anleger und Unternehmen mit großen Liegenschaften im In- und Ausland. Für inländische Unternehmen mit ausländischem Liegenschaftsbestand bieten wir unser einzigartiges Property Controlling International an. Tectareal ist ein erfolgreiches mittelständisches Unternehmen mit mehr als 300 engagierten Mitarbeitern an mehreren Standorten in Deutschland.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- /Section 1_2 - Stelle -->
+
 		<!-- Section 2 - Stelle Page -->
 
 		<section class="grey_bg">
@@ -189,22 +238,22 @@
 				<div class="contacts_article contacts_article_2">
 					<div class="left">
 						<h2>Jetzt bewerben!</h2>
-						<div class="manager_wrapp">
+						<div class="manager_wrapp manager_wrapp_2">
 							<h3>Ihr persönlicher Ansprechpartner</h3>
 							<div class="manager_article">
 								<div>
-									<div class="photo_box_3">
-										<img src="img/jasmin.jpg" alt="" />
+									<div class="photo_box_3" style="background-image: url(img/jasmin_hofstetter.png);">
+										<!-- <img src="img/foerstner.jpg" alt="" /> -->
 									</div>
 								</div>
 								<div>
 									<h3>Jasmin Hofstetter</h3>
 									<p><a href="mailto:bewerbung@tectareal.de">bewerbung@tectareal.de</a></p>
-
-									<div class="tels_wrapp">
+									<p>Tel: <a href="tel:+49020195888931">+49 (0)201 95888 - 931</a></p>
+									<!-- <div class="tels_wrapp">
 										<p>Tel: <a href="tel:+49020195888931">+49 (0)201 95888 - 931</a></p>
 										<p>Fax: <a href="tel:+49020195888806">+49 (0)201 95888 - 806</a></p>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -378,8 +427,26 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer_nav_resp_wrapp">
+						<ul class="footer_nav_resp">
+							<li><a href="#" >Home</a></li>
+							<li><a href="#" >Kontakt</a></li>
+							<li><a href="#" >Unternehmen</a></li>
+							<li><a href="#" >Impressum</a></li>
+							<li><a href="#" >Leistungen</a></li>
+							<li><a href="#" >Datenschutz</a></li>
+							<li><a href="#" >Karriere</a></li>
+							<li>
+								<ul class="soc_list_resp">
+									<li><a href="#"><img src="img/fb.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/ln.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/soc.svg" alt="" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="footer_bootom_row">
 				<div class="row">
 					<div class="footer_bootom">
