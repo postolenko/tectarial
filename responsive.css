@@ -4328,6 +4328,24 @@ h2 {
 
 }
 
+@media only screen and (max-width: 360px) {
+
+/*-- Section 6 - Karriere Page --*/
+
+	.thumb_3_descript p {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+
+	.thumb_3 .transparent_pill {
+	    font-size: 10px;
+	    line-height: 16px;
+	}
+
+/*-- /Section 6 - Karriere Page --*/
+
+}
+
 @media only screen and (max-width: 330px) {
 
 h1 {
