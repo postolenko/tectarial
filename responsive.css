@@ -25,7 +25,7 @@
 	}
 
 	.slider_3_arrows .slick-arrow {
-	    top: 12px;
+		top: 44px;
 	}
 
 	.slider_4_arrows .slick-prev {
@@ -91,6 +91,21 @@
 }
 
 /*-- /Section 1 - News --*/
+
+/*-- Section 6 - Karriere Page --*/
+
+.thumb_3 {
+    width: calc(25% - 20px);
+    min-height: 380px;
+    margin: 30px 10px;
+}
+
+.thumb_3_descript p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/*-- /Section 6 - Karriere Page --*/
 
 }
 
@@ -313,6 +328,27 @@ h1 {
 
 /*-- /Section 1 - Contact --*/
 
+/*-- Section 6 - Karriere Page --*/
+
+.thumb_3 {
+    min-height: 350px;
+    padding: 30px 20px 88px 20px;
+}
+
+.thumb_3_header {
+    min-height: 50px;
+}
+
+.thumb_3_footer {
+    padding: 10px 20px 25px 20px;
+}
+
+.transparent_pill {
+    font-size: 18px;
+}
+
+/*-- /Section 6 - Karriere Page --*/
+
 /*-- Footer --*/
 
 .footer_bootom > div:nth-child(1) {
@@ -410,19 +446,19 @@ h1 {
 }
 
 .transparent_pill {
-    padding: 14px 20px 14px 20px;
+    padding: 14px 5px 14px 5px;
     font-size: 18px;
     line-height: 23px;
 }
 
 .olive_pill {
-    padding: 14px 20px 14px 20px;
+    padding: 14px 5px 14px 5px;
     font-size: 18px;
     line-height: 23px;
 }
 
 .olive_pill_3 {
-    padding: 14px 20px 14px 20px;
+    padding: 14px 5px 14px 5px;
     font-size: 18px;
     line-height: 23px;
 }
@@ -1060,6 +1096,14 @@ h1 {
 }
 
 /*-- /Section 3 - Karriere Page --*/
+
+/*-- Section 6 - Karriere Page --*/
+
+.thumb_3 {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 6 - Karriere Page --*/
 
 }
 
@@ -1762,8 +1806,27 @@ textarea {
     min-height: 130px;
 }
 
+.slide_3 {
+    padding: 20px 0;
+}
+
 .slider_3_arrows .slick-arrow {
-    top: 4px;
+    top: 78px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+}
+
+.slider_3_arrows .slick-arrow:before {
+    background-size: 11px;
+}
+
+.slider_3_arrows .slick-prev {
+    left: -29px;
+}
+
+.slider_3_arrows .slick-next {
+    right: -29px;
 }
 
 .slide_3_header h2 {
@@ -1800,6 +1863,10 @@ textarea {
 
 .slide_3_content ul li:before {
     top: 10px;
+}
+
+.slide_3_content .olive_pill {
+    margin-top: 23px;
 }
 
 /*-- /Section 6 - Unhernehmen Page --*/
@@ -2038,7 +2105,6 @@ textarea {
 }
 
 .article_5_1 .article_5_img_wrapp {
-    /*margin-top: 128px;*/
     width: 150px;
     left: 0;
 }
@@ -2116,6 +2182,14 @@ textarea {
 }
 
 /*-- /Section 3 - Karriere Page --*/
+
+/*-- Section 6 - Karriere Page --*/
+
+.thumb_3 {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 6 - Karriere Page --*/
 
 /*-- Footer --*/
 
@@ -2207,7 +2281,7 @@ textarea {
 	width: 20px;
 	height: 20px;
 	border: 1px solid #000;
-    top: 81px;
+    top: 70px;
 }
 
 .slider_3_arrows .slick-arrow:before {
@@ -2857,6 +2931,10 @@ p {
 
 /*-- Section 3 - Stelle Page --*/
 
+.sect_6_kp {
+    padding: 52px 0 25px 0;
+}
+
 .dropdown_box_title {
     height: 30px;
     padding: 0 15px;
@@ -2878,6 +2956,7 @@ p {
 .search_btn_wrapp .olive_pill {
 	min-width: 100%;
 	width: 100%;
+	margin-bottom: 5px;
     padding: 5px 10px 5px 10px;
     font-size: 12px;
     line-height: 18px;
@@ -3019,6 +3098,48 @@ p {
 }
 
 /*-- /Section 3 - Karriere Page --*/
+
+/*-- Section 6 - Karriere Page --*/
+
+.thumb_3 {
+    min-height: 190px;
+   	width: calc(50% - 14px);
+   	margin: 7px 7px;
+    padding: 15px 10px 50px 10px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+}
+
+.thumb_3:nth-child(odd) {
+	position: relative;
+	top: -30px;
+}
+
+.thumb_3_header {
+    min-height: 32px;
+}
+
+.thumb_3_descript {
+    min-height: 45px;
+}
+
+.thumb_3_descript p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.thumb_3 .transparent_pill {
+	min-width: 100%;
+	padding: 7px 5px 7px 5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.thumb_3_footer {
+    padding: 10px 10px 15px 10px;
+}
+
+/*-- /Section 6 - Karriere Page --*/
 
 }
 
@@ -3655,6 +3776,14 @@ h1 {
 }
 
 /*-- /Section 2 - Karriere Page --*/
+
+/*-- Section 5 - Karriere Page --*/
+
+.slide_3_content .olive_pill {
+    margin-top: 17px;
+}
+
+/*-- /Section 5 - Karriere Page --*/
 
 /*-- Footer --*/
 

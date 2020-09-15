@@ -83,7 +83,12 @@ function getLogoTrPosition() {
         sliderName = logosNavWrapp.find("[data-tabslider-logosnav]").attr("data-tabslider-logosnav");
         logosNav = logosNavWrapp.find(".logos_nav");
         activeLogoItem = logosNav.find("a.active");
-        leftOffset = ( activeLogoItem.offset().left ) + ( activeLogoItem.width() / 2 ) - ( $(this).width() / 2 );
+        if(bodyWidth > 700) {
+            trOffset = 17;
+        } else {
+            trOffset = 9;
+        }
+        leftOffset = ( activeLogoItem.offset().left ) + ( activeLogoItem.width() / 2 ) - trOffset;
         $(this).offset({left: leftOffset});
     });
 }
@@ -158,7 +163,12 @@ $(document).ready(function() {
                 activeLogoItem.addClass("active");
                 logosNavWrapp = $("[data-tabslider-logosnav = '"+ sliderName +"']").closest(".logos_nav_wrapp");
                 logosTr = logosNavWrapp.find(".logos_tr");
-                leftOffset = ( activeLogoItem.offset().left ) + ( activeLogoItem.width() / 2 ) - 17;
+                if(bodyWidth > 700) {
+                    trOffset = 17;
+                } else {
+                    trOffset = 9;
+                }
+                leftOffset = ( activeLogoItem.offset().left ) + ( activeLogoItem.width() / 2 ) - trOffset;
                 logosTr.offset({left: leftOffset});
             }
         });
@@ -179,7 +189,12 @@ $(document).ready(function() {
                 activeLogoItem.addClass("active");
                 logosNavWrapp = $("[data-tabslider-logosnav = '"+ sliderName +"']").closest(".logos_nav_wrapp");
                 logosTr = logosNavWrapp.find(".logos_tr");
-                leftOffset = ( activeLogoItem.offset().left ) + ( activeLogoItem.width() / 2 ) - 17;
+                if(bodyWidth > 700) {
+                    trOffset = 17;
+                } else {
+                    trOffset = 9;
+                }
+                leftOffset = ( activeLogoItem.offset().left ) + ( activeLogoItem.width() / 2 ) - trOffset;
                 logosTr.offset({left: leftOffset});
             }
 

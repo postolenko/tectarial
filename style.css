@@ -1179,7 +1179,7 @@ textarea:focus {
 .transparent_pill {
     display: inline-block;
     vertical-align: top;
-    padding: 14px 30px 14px 29px;
+    padding: 14px 5px 14px 5px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -2984,7 +2984,8 @@ textarea {
 }
 
 .slider_3_arrows .slick-arrow {
-    top: 79px;
+    /*top: 79px;*/
+    top: 108px;
 }
 
 .slider_3_arrows .slick-arrow {
@@ -3000,12 +3001,12 @@ textarea {
 }
 
 .slide_3 {
-    padding: 30px 0 20px 0;
+    /*padding: 30px 0 20px 0;*/
+    padding: 58px 0 20px 0;
 }
 
 .slide_3_header h2 {
     padding: 10px 0;
-
 }
 
 .slide_3_header h4 {
@@ -3093,13 +3094,13 @@ textarea {
 .olive_pill_2.active {
     border: 1px solid #B19B00;
     background: #fff;
-    color: #8B7A00;
+    color: #000;
 }
 
 .olive_pill_2:hover {
     border: 1px solid #B19B00;
     background: #fff;
-    color: #8B7A00;
+    color: #000;
 }
 
 /*-- /Section 6 - Unhernehmen Page --*/
@@ -3385,8 +3386,8 @@ textarea {
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
+    justify-content: center;
+    -webkit-justify-content: center;
     margin-top: 75px;
 }
 
@@ -3455,14 +3456,42 @@ textarea {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .logo_box_2 .icon_box .visible_icon {
-
+    opacity: 1;
 }
 
 .logo_box_2 .icon_box .hover_icon {
+    opacity: 0;
+}
 
+.logo_box_2:hover .icon_box .visible_icon {
+    opacity: 0;
+}
+
+.logo_box_2:hover .icon_box .hover_icon,
+.logo_box_2.active .icon_box .hover_icon {
+    opacity: 1;
 }
 
 .logo_box_2 p {
@@ -3478,7 +3507,7 @@ textarea {
 }
 
 .slider_nav_5_wrapp {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .slider_nav_5 {
@@ -3510,7 +3539,8 @@ textarea {
 }
 
 .slide_3 .slide_shape_e {
-    top: 30%;
+    top: -14px;
+    transform: scale(.9);
 }
 
 .slide_3 .slide_shape_2 {
@@ -3523,7 +3553,7 @@ textarea {
 }
 
 .slide_3_content {
-
+    padding: 20px 0;
 }
 
 .slide_3_content p {
@@ -3559,6 +3589,10 @@ textarea {
     height: 530px;
     border: none;
     margin: 10px 0 30px 0;
+}
+
+.slide_3_content .olive_pill {
+    margin-top: 40px;
 }
 
 /*-- /Section 3 - Leistungen Page --*/
@@ -4080,13 +4114,13 @@ textarea {
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    margin: 0 -10px;
+    margin: 50px -10px 0 -10px;
 }
 
 .thumb_3 {
     width: calc(25% - 20px);
     min-height: 400px;
-    margin: 50px 10px;
+    margin: 40px 10px;
     position: relative;
     padding: 30px 30px 100px 30px;
     background-color: #8B7A00;
