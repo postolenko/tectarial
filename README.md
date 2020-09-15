@@ -6,4 +6,4 @@
 # http://postolenko.github.io/tectarial/karriere.html
 # http://postolenko.github.io/tectarial/stelle.html
 # http://postolenko.github.io/tectarial/contacts.html
-# http://postolenko.github.io/tectarial/news.html
+# http://postolenko.github.io/tectarial/actuelles.html
