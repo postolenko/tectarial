@@ -413,19 +413,19 @@ $(document).ready(function() {
             });
         });
 
-        // $('.contacts_slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
-        //     index = $(this).find(".slick-current .slide").attr("data-cityindex");
-        //     sliderName = $(this).attr("data-slider");
-        //     $("[data-map = '"+sliderName+"'] .city_link").removeClass("active");
-        //     $("[data-cityindex = '"+index+"']").addClass("active");
-        // });
+        $('.contacts_slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+            index = $(this).find(".slick-current .slide").attr("data-cityindex");
+            sliderName = $(this).attr("data-slider");
+            $("[data-map = '"+sliderName+"'] .city_link").removeClass("active");
+            $("[data-cityindex = '"+index+"']").addClass("active");
+        });
 
         $(".contacts_slider").not(".slick-initialized").slick({
             dots: true,
             arrows: true,
             // autoplay: true,
-            autoplaySpeed: 4000,
-            speed: 500,
+            // autoplaySpeed: 4000,
+            speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,
             fade: true

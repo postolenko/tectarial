@@ -72,6 +72,18 @@
 
 /*-- /Section 4 - Unhernehmen Page --*/
 
+/*-- Section 1 - Contact --*/
+
+.contacts_slider {
+    margin-top: 60px;
+}
+
+.thumbnails_4 {
+    margin: 10px -10px 70px -10px;
+}
+
+/*-- /Section 1 - Contact --*/
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -271,6 +283,28 @@ h1 {
 
 /*-- /Section 3 - Unhernehmen Page --*/
 
+/*-- Section 1 - Contact --*/
+
+.thumbnails_4 {
+    margin: 10px -10px;
+}
+
+.thumb_4 .contact_header {
+    min-height: 100px;
+}
+
+.thumb_4 .contact_header p {
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.thumb_4 .contact_descript p {
+    font-size: 17px;
+    line-height: 32px;
+}
+
+/*-- /Section 1 - Contact --*/
+
 /*-- Footer --*/
 
 .footer_bootom > div:nth-child(1) {
@@ -440,6 +474,33 @@ h1 {
 }
 
 /*-- /Section 4 - Unhernehmen Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.thumb_4 .contact_header p {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.thumb_4 .icon_box {
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+.thumb_4 .icon_box img {
+    left: 15px;
+}
+
+.thumb_4 .contacts_box {
+    padding: 0 15px;
+}
+
+.thumb_4 .contact_descript p {
+    font-size: 14px;
+    line-height: 29px;
+}
+
+/*-- /Section 1 - Contact --*/
 
 /*-- Footer --*/
 
@@ -789,6 +850,32 @@ h1 {
 }
 
 /*-- /Section 3 - Stelle Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.map_section.map_section_2 .right {
+    height: 690px;
+}
+
+/*-- /Section 1 - Contact --*/
+
+/*-- Section 2 - Contact --*/
+
+.article_2 {
+    padding-left: 0;
+}
+
+.table p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.table p a {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Contact --*/
 
 }
 
@@ -1140,6 +1227,27 @@ p {
 }
 
 /*-- /Section 5 - Leistungen Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.contacts_slider .slick-arrow {
+    width: 40px;
+    height: 40px;
+}
+
+.map_wrapp_2 {
+    top: -104px;
+}
+
+/*-- /Section 1 - Contact --*/
+
+/*-- Section 1 - Contact --*/
+
+.map_section.map_section_2 .right {
+    height: 530px;
+}
+
+/*-- /Section 1 - Contact --*/
 
 /*-- Footer --*/
 
@@ -1678,6 +1786,67 @@ textarea {
 
 /*-- /Section 3 - Stelle Page --*/
 
+/*-- Section 1 - Contact --*/
+
+.contacts_slider {
+    margin-top: 20px;
+}
+
+.contact_header {
+    min-height: 103px;
+}
+
+.contact_header p {
+    line-height: 31px;
+}
+
+.contact_descript p {
+    line-height: 32px;
+}
+
+.contacts_slider .slick-arrow {
+    margin-top: -74px;
+}
+
+.thumb_4 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.thumb_4 .icon_box {
+    margin-bottom: 20px;
+}
+
+.thumb_4 .contact_header {
+    min-height: 66px;
+}
+
+/*-- /Section 1 - Contact --*/
+
+/*-- Section 1 - Contact --*/
+
+.map_section.map_section_2 .right {
+    height: 430px;
+}
+
+/*-- /Section 1 - Contact --*/
+
+/*-- Section 2 - Contact --*/
+
+.table p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.table p a {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Contact --*/
+
 /*-- Footer --*/
 
 .footer_bootom_row {
@@ -1811,6 +1980,26 @@ textarea {
 }
 
 /*-- /Section 2 -Leistungen  Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.contact_header p {
+	font-size: 17px;
+    line-height: 23px;
+}
+
+.contact_descript p {
+	font-size: 17px;
+    line-height: 23px;
+}
+
+.contacts_slider .slick-arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: -60px;
+}
+
+/*-- /Section 1 - Contact --*/
 
 /*-- Footer --*/
 
@@ -2169,6 +2358,8 @@ p {
 
 .map_section .left {
     width: 100%;
+    padding-top: 19px;
+    padding-right: 0;
 }
 
 .map_section .right {
@@ -2441,6 +2632,73 @@ p {
 }
 
 /*-- /Section 3 - Stelle Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.map_article_header {
+    max-width: 200px;
+}
+
+.map_article_header h2 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.map_article_header h4 {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.contact_header {
+    min-height: 95px;
+}
+
+.contact_header p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.contact_descript p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.contacts_slider {
+	margin-top: 90px;
+    max-width: 260px;
+}
+
+.map_section_2 .map_wrapp {
+    top: -327px;
+}
+
+/*-- /Section 1 - Contact --*/
+
+/*-- Section 2 - Contact --*/
+
+.table {
+    margin: 12px 0;
+}
+
+.table .table_row {
+	display: block;
+}
+
+.table .table_row .cell {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.table_row {
+	padding: 10px 0;
+}
+
+.table p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Contact --*/
 
 /*-- Header --*/
 
@@ -3035,6 +3293,26 @@ h1 {
 
 /*-- /Section 5 - Leistungen Page --*/
 
+/*-- Section 1 - Contact --*/
+
+.map_section_2 .map_article_header {
+    padding-right: 0;
+}
+
+.map_section_2 .map_wrapp {
+	top: -239px;
+	right: -229px;
+	transform: scale(0.27);
+}
+
+.contacts_slider .slick-arrow {
+    width: 20px;
+    height: 20px;
+    margin-top: -31px;
+}
+
+/*-- /Section 1 - Contact --*/
+
 /*-- Footer --*/
 
 .footer_bg {
@@ -3408,6 +3686,38 @@ h2 {
 }
 
 /*-- /Section 2 -Leistungen  Page --*/
+
+/*-- Section 1 - Contact --*/
+
+.thumb_4 {
+	padding: 22px 0 22px 40px;
+}
+
+.thumb_4 .icon_box {
+    height: 67px;
+    margin-bottom: 20px;
+}
+
+.thumb_4 .icon_box img {
+    left: -25px;
+}
+
+.thumb_4 .contact_header {
+    min-height: 63px;
+}
+
+.thumb_4 .contact_header p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.thumb_4 .contact_descript p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+/*-- /Section 1 - Contact --*/
 
 }
 

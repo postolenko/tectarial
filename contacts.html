@@ -19,7 +19,7 @@
 	<!-- Header -->
 		
 	<header>
-		<div class="header_site header_site_inner header_site_inner_3">
+		<div class="header_site header_site_inner header_site_inner_3" id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -134,14 +142,14 @@
 								<div class="slide" data-cityindex = "city_1">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Hamburg</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Nord (Hamburg)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>Kurze Mühren 20</p>
+											<p>D-20095 Hamburg</p>
+											<p>Tel: +49 (0)40 88190 - 2811</p>
+											<p>Fax: +49 (0)40 88190 - 2899</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -149,14 +157,14 @@
 								<div class="slide" data-cityindex = "city_2">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Berlin</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Nordost (Berlin)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>Spichernstraße 1</p>
+											<p>D-10777 Berlin</p>
+											<p>Tel: +49 (0)30 610910 - 601</p>
+											<p>Fax: +49 (0)30 610910 - 603</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -164,14 +172,14 @@
 								<div class="slide" data-cityindex = "city_3">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Essen / Headquater</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Nordwest (Essen)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>Norberstraße 3-5</p>
+											<p>D-45131 Essen</p>
+											<p>Tel: +49 (0)201 95888 - 800</p>
+											<p>Fax: +49 (0)201 95888 - 803</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -180,7 +188,6 @@
 									<div class="contacts_box">
 										<div class="contact_header">
 											<p>Düsseldorf</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
 											<p>Lutzstr. 2</p>
@@ -194,14 +201,14 @@
 								<div class="slide" data-cityindex = "city_5">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Dresden</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Nordost (Dresden)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>August-Bebel-Straße 10</p>
+											<p>D-01219 Dresden</p>
+											<p>Tel: +49 (0)351 4243 - 283</p>
+											<p>Fax: +49 (0)30 610910 - 603</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -209,14 +216,14 @@
 								<div class="slide" data-cityindex = "city_6">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Erfurt</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Nordost (Erfurt)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>Schmidtstedter Straße 30a</p>
+											<p>D-99084 Erfurt</p>
+											<p>Tel: +49 (0)30 610910 - 601</p>
+											<p>Fax: +49 (0)30 610910 - 603</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -224,14 +231,14 @@
 								<div class="slide" data-cityindex = "city_7">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Köln</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Nordwest (Köln)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>Sankt-Apern-Straße 17-21</p>
+											<p>D-50667 Köln</p>
+											<p>Tel: +49 (0) 201 95888 - 800</p>
+											<p>Fax: +49 (0) 201 95888 - 803</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -239,14 +246,14 @@
 								<div class="slide" data-cityindex = "city_8">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>Frankfurt</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Südwest (Frankfurt)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
-											<p>Lutzstr. 2</p>
-											<p>D-80687 München</p>
-											<p>Tel: +49 (0)89 1250310 - 0</p>
-											<p>Fax: +49 (0)89 1250310 - 80</p>
+											<p>Lyoner Str. 25</p>
+											<p>D-60528 Frankfurt a. M.</p>
+											<p>Tel: +49 (0)69 907207 - 201</p>
+											<p>Fax: +49 (0)69 907207 - 398</p>
 											<p>E-Mail: info@tectareal.de</p>
 										</div>
 									</div>
@@ -254,8 +261,8 @@
 								<div class="slide" data-cityindex = "city_9">
 									<div class="contacts_box">
 										<div class="contact_header">
-											<p>München</p>
-											<p>Region Süd (München) Tectareal Property Management GmbH</p>
+											<p>Region Süd (München)</p>
+											<p>Tectareal Property Management GmbH</p>
 										</div>
 										<div class="contact_descript">
 											<p>Lutzstr. 2</p>
@@ -270,7 +277,7 @@
 						</div>
 					</div>
 					<div class="right">
-						<div class="map_wrapp" data-map = "contacts_slider">
+						<div class="map_wrapp map_wrapp_2" data-map = "contacts_slider">
 							<img class="map" src="img/map.png" alt="" />
 							<div>
 								<a href="#" class="city_link hamburg" data-cityindex = "city_1">
@@ -316,11 +323,28 @@
 				<div class="thumbnails_4">
 					<div class="thumb_4">
 						<div class="icon_box">
-							<img src="img/tectareal_solutions.svg" alt="" />
+							<img src="img/tectareal_solutions_2.svg" alt="" />
 						</div>
 						<div class="contacts_box">
 							<div class="contact_header">
-								<p>Region Süd (München) Tectareal Property Management GmbH</p>
+								<p>Tectareal Solutions Hamburg GmbH</p>
+							</div>
+							<div class="contact_descript">
+								<p>Kurze Mühren 20</p>
+								<p>D-20095 Hamburg</p>
+								<p>Tel: +49 (0)40 88190 - 2811</p>
+								<p>Fax: +49 (0)40 88190 - 2899</p>
+								<p>E-Mail: info@tectareal.de</p>
+							</div>
+						</div>
+					</div>
+					<div class="thumb_4">
+						<div class="icon_box">
+							<img src="img/tectareal_premium_2.svg" alt="" />
+						</div>
+						<div class="contacts_box">
+							<div class="contact_header">
+								<p>Tectareal Premium GmbH</p>
 							</div>
 							<div class="contact_descript">
 								<p>Lutzstr. 2</p>
@@ -333,34 +357,17 @@
 					</div>
 					<div class="thumb_4">
 						<div class="icon_box">
-							<img src="img/tectarial_premium.svg" alt="" />
+							<img src="img/tectarial_property_2.svg" alt="" />
 						</div>
 						<div class="contacts_box">
 							<div class="contact_header">
-								<p>Region Süd (München) Tectareal Property Management GmbH</p>
+								<p>Tectareal Property Controlling GmbH</p>
 							</div>
 							<div class="contact_descript">
-								<p>Lutzstr. 2</p>
-								<p>D-80687 München</p>
-								<p>Tel: +49 (0)89 1250310 - 0</p>
-								<p>Fax: +49 (0)89 1250310 - 80</p>
-								<p>E-Mail: info@tectareal.de</p>
-							</div>
-						</div>
-					</div>
-					<div class="thumb_4">
-						<div class="icon_box">
-							<img src="img/tectarial_controlling.svg" alt="" />
-						</div>
-						<div class="contacts_box">
-							<div class="contact_header">
-								<p>Region Süd (München) Tectareal Property Management GmbH</p>
-							</div>
-							<div class="contact_descript">
-								<p>Lutzstr. 2</p>
-								<p>D-80687 München</p>
-								<p>Tel: +49 (0)89 1250310 - 0</p>
-								<p>Fax: +49 (0)89 1250310 - 80</p>
+								<p>Lyonerstr. 25</p>
+								<p>D-60528 Frankfurt a. M.</p>
+								<p>Tel: +49 (0)69 907207 - 201</p>
+								<p>Fax: +49 (0)69 907207 - 398</p>
 								<p>E-Mail: info@tectareal.de</p>
 							</div>
 						</div>
@@ -375,32 +382,86 @@
 
 		<section class="article_2_wrapp">
 			<div class="row">
-				<div class="article_2">
+				<div class="article_2 article_2_2">
 					<div class="inner">
-						<h2>Wohnungsmieter</h2>
-						<br />
-						<p>Sind Sie Mieter und haben Fragen oder Anliegen, dann wenden Sie sich an:</p>
+						<h2>Haben Sie ein Anliegen?</h2>
+						<p>Dann setzen Sie sich bitte mit Ihrem Ansprechpartner in Ihrer Region in Verbindung. </p>
 						<div class="table">
 							<div class="table_row">
 								<div class="cell">
-									<p>Standort A</p>
+									<p>Berlin</p>
 								</div>
 								<div class="cell">
-									<p>Tel: <a href="tel:+49030610910601">+49 (0)30 61 09 10-601</a></p>
+									<p>Frau Carolin Penda</p>
 								</div>
 								<div class="cell">
-									<p>Mail: <a href="mailto:info@standorta.de">info@standorta.de</a></p>
+									<p>Tel: <a href="tel:+49030610910700">+49 (0)30 61 09 10 - 700</a></p>
 								</div>
 							</div>
 							<div class="table_row">
 								<div class="cell">
-									<p>Standort B</p>
+									<p>Hamburg</p>
 								</div>
 								<div class="cell">
-									<p>Tel: <a href="tel:+49030610910601">+49 (0)30 61 09 10-601</a></p>
+									<p>Frau Dinara Knorr</p>
 								</div>
 								<div class="cell">
-									<p>Mail: <a href="mailto:info@standorta.de">info@standorta.de</a></p>
+									<p>Tel: <a href="tel:+49040881902811">+49 (0)40 88 19 0 - 2811</a></p>
+								</div>
+							</div>
+							<div class="table_row">
+								<div class="cell">
+									<p>Frankfurt</p>
+								</div>
+								<div class="cell">
+									<p>Frau Ann-Kathrin Kusch</p>
+								</div>
+								<div class="cell">
+									<p>Tel: <a href="tel:+49069907207201 ">+49 (0)69 90 72 07 - 201</a></p>
+								</div>
+							</div>
+							<div class="table_row">
+								<div class="cell">
+									<p>Essen</p>
+								</div>
+								<div class="cell">
+									<p>Frau Lina Bauer-von Waldthausen</p>
+								</div>
+								<div class="cell">
+									<p>Tel: <a href="tel:+49020195888800">+49 (0)201 95 88 8 - 800</a></p>
+								</div>
+							</div>
+							<div class="table_row">
+								<div class="cell">
+									<p>München</p>
+								</div>
+								<div class="cell">
+									<p>Herr Markus Marquardt</p>
+								</div>
+								<div class="cell">
+									<p>Tel: <a href="tel:+4908912503100">+49 (0)89 12 50 31 0 - 0</a></p>
+								</div>
+							</div>
+							<div class="table_row">
+								<div class="cell">
+									<p>Erfurt</p>
+								</div>
+								<div class="cell">
+									<p>Frau Nadine Lütz</p>
+								</div>
+								<div class="cell">
+									<p>Tel: <a href="tel:+4903616733114 ">+49 (0)361 67 33 - 114</a></p>
+								</div>
+							</div>
+							<div class="table_row">
+								<div class="cell">
+									<p>Köln</p>
+								</div>
+								<div class="cell">
+									<p>Frau Lina Bauer-von Waldthausen</p>
+								</div>
+								<div class="cell">
+									<p>Tel: <a href="tel:+49020195888800">+49 (0)201 95 88 8 - 800</a></p>
 								</div>
 							</div>
 						</div>
@@ -422,12 +483,12 @@
 							<h3>Ihr persönlicher Ansprechpartner</h3>
 							<div class="manager_article">
 								<div>
-									<div class="photo_box_3">
-										<img src="img/foerstner.jpg" alt="" />
+									<div class="photo_box_3" style="background-image: url(img/klann_sabine.jpg);">
+										<!-- <img src="img/foerstner.jpg" alt="" /> -->
 									</div>
 								</div>
 								<div>
-									<h3>Lena Förster</h3>
+									<h3>Sabine Klann</h3>
 									<p><a href="mailto:info@tectareal.de">info@tectareal.de</a></p>
 								</div>
 							</div>
@@ -437,27 +498,27 @@
 						<div class="form_wrapp">
 							<form>
 								<div class="input_wrapp">
-									<input type="email" placeholder="E-Mail" />
+									<input type="email" placeholder="E-Mail*" />
 								</div>
 								<div class="form_two_cols">
 									<div class="input_wrapp">
-										<input type="text" placeholder="Name" />
+										<input type="text" placeholder="Name*" />
 									</div>
 									<div class="input_wrapp">
-										<input type="text" placeholder="Vorname" />
+										<input type="text" placeholder="Vorname*" />
 									</div>
 								</div>
 								<div class="input_wrapp">
 									<input type="text" placeholder="Firma" />
 								</div>
 								<div class="input_wrapp">
-									<textarea placeholder="Nachricht"></textarea>
+									<textarea placeholder="Nachricht*"></textarea>
 								</div>
 								<div class="checkbox_wrapp">
 									<label class="checkbox"><input type="checkbox" name="#" />Hiermit erklären ich mich damit einverstanden, dass meine Daten zur Bearbeitung meines Anliegens verwendet werden. (Weitere Informationen und Widerrufshinweise hier: Datenschutzerklärung).</label>
 								</div>
 								<div class="submit_wrapp">
-									<button type="submit" class="transparent_pill_3">Absenden ></button>
+									<button type="submit" class="transparent_pill_3">Absenden</button>
 								</div>
 							</form>
 						</div>
@@ -505,8 +566,26 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer_nav_resp_wrapp">
+						<ul class="footer_nav_resp">
+							<li><a href="#" >Home</a></li>
+							<li><a href="#" >Kontakt</a></li>
+							<li><a href="#" >Unternehmen</a></li>
+							<li><a href="#" >Impressum</a></li>
+							<li><a href="#" >Leistungen</a></li>
+							<li><a href="#" >Datenschutz</a></li>
+							<li><a href="#" >Karriere</a></li>
+							<li>
+								<ul class="soc_list_resp">
+									<li><a href="#"><img src="img/fb.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/ln.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/soc.svg" alt="" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="footer_bootom_row">
 				<div class="row">
 					<div class="footer_bootom">
