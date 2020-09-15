@@ -3227,6 +3227,7 @@ p {
 .thumb_3 {
     min-height: 190px;
    	width: calc(50% - 14px);
+   	max-width: 180px;
    	margin: 7px 7px;
     padding: 15px 10px 50px 10px;
     border-radius: 13px;
