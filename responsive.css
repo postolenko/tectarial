@@ -670,6 +670,18 @@ h1 {
 
 /*-- /Section 3 - Karriere Page --*/
 
+/*-- Section 1 - News --*/
+
+.article_7 .left {
+    width: calc(100% - 380px);
+}
+
+.article_7 .right {
+    width: 380px;
+}
+
+/*-- /Section 1 - News --*/
+
 /*-- Footer --*/
 
 .footer_templ .col:nth-child(1) {
@@ -1113,6 +1125,37 @@ h1 {
 
 /*-- /Section 6 - Karriere Page --*/
 
+/*-- Section 2 - News --*/
+
+.years_tab {
+    margin: 52px 0;
+}
+
+.article_6_2 .article_3_header {
+    padding-right: 0;
+}
+
+.article_6_2 .article_3_content {
+    padding-right: 0;
+}
+
+.article_6_2 .article_6_img_wrapp {
+    left: -38px;
+}
+
+.article_5_2 .right {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.article_5_img_wrapp {
+    width: 300px;
+    left: 20px;
+    margin: 0 0 50px 0;
+}
+
+/*-- /Section 2 - News --*/
+
 }
 
 
@@ -1517,6 +1560,52 @@ p {
 }
 
 /*-- /Section 7 - Karriere Page --*/
+
+/*-- Section 1 - News --*/
+
+.article_7 {
+	position: relative;
+}
+
+.article_7 .left {
+	width: 100%;
+	padding: 207px 0 35px 0;
+}
+
+.article_7 .right {
+    width: 380px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.article_7 .article_5_img_wrapp {
+    margin-top: -117px;
+}
+
+.article_7_wrapp {
+    margin-top: 103px;
+}
+
+.article_7_header {
+    padding-bottom: 14px;
+}
+
+/*-- /Section 1 - News --*/
+
+/*-- Section 2 - News --*/
+
+.article_6_2 .article_3_header h2 {
+    font-size: 33px;
+    line-height: 44px;
+}
+
+.article_6_2 p {
+	font-size: 21px;
+	line-height: 35px;
+}
+
+/*-- /Section 2 - News --*/
 
 /*-- Footer --*/
 
@@ -2185,7 +2274,7 @@ textarea {
     width: 182px;
     height: 106px;
     top: 64px;
-    right: -11px;
+    right: 10px;
     -webkit-border-radius: 13px;
     border-radius: 13px;
 }
@@ -2231,6 +2320,76 @@ textarea {
 }
 
 /*-- /Section 6 - Karriere Page --*/
+
+/*-- Section 1 - News --*/
+
+.article_7 .article_5_img_wrapp {
+    margin-top: -117px;
+    width: 170px;
+}
+
+.article_7 .left {
+    width: 100%;
+    padding: 54px 0 35px 0;
+}
+
+.article_7 .right {
+    width: 170px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.article_7 .article_5_img_wrapp {
+    left: 0;
+}
+
+/*-- /Section 1 - News --*/
+
+/*-- Section 2 - News --*/
+
+.years_tab {
+    margin: 23px 0;
+}
+
+.years_tab li {
+    padding: 10px;
+}
+
+.year_btn {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #8B7A00;
+}
+
+.year_btn span {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.article_6_2 {
+	margin: 0 0 16px 0;
+}
+
+.article_6_2 .article_6_img_wrapp {
+    left: 0;
+}
+
+.article_5_wrapp_2 {
+	margin-top: 154px;
+	padding-top: 0;
+}
+
+.article_5_img_wrapp_2 {
+	width: 170px;
+    margin: -123px 0 20px 0;
+}
+
+.article_5_2 .article_3_header {
+    padding-right: 0;
+}
+
+/*-- /Section 2 - News --*/
 
 /*-- Footer --*/
 
@@ -3264,6 +3423,66 @@ p {
 }
 
 /*-- /Section 6 - Karriere Page --*/
+
+/*-- Section 1 - News --*/
+
+.article_7 .left {
+    padding: 103px 0 34px 0;
+}
+
+.article_7 .article_5_img_wrapp {
+    margin-top: -80px;
+}
+
+.article_7 h4 {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.article_7 h2 {
+	padding: 2px 0 4px 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.article_7 p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*-- /Section 1 - News --*/
+
+/*-- Section 2 - News --*/
+
+.article_6_2 .article_3_header p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.article_6_2 .article_3_header h2 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.article_5_2 .article_3_header h2 {
+    line-height: 32px;
+}
+
+.years_slider .article_5_wrapp h4 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.article_5_wrapp_3 {
+    padding: 15px 0 5px 0;
+}
+
+.article_5_wrapp_3 .article_5 .article_3_content p {
+    padding-bottom: 0;
+}
+
+/*-- /Section 2 - News --*/
 
 }
 

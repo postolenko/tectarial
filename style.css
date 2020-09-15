@@ -4616,6 +4616,7 @@ p.testimonial_author {
 .article_7 h4 {
     font-size: 25px;
     line-height: 33px;
+    font-weight: 600;
 }
 
 .article_7 h2 {
@@ -4724,6 +4725,14 @@ p.testimonial_author {
 
 .article_6_2 .article_3_content {
     padding-right: 5%;
+}
+
+.article_6_2 .right {
+    order: 2;
+}
+
+.article_6_2 .left {
+    order: 1;
 }
 
 .article_5_wrapp {
