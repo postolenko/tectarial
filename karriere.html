@@ -19,7 +19,7 @@
 	<!-- Header -->
 		
 	<header>
-		<div class="header_site">
+		<div class="header_site"  id="headerSite">
 			<div class="header_row">
 				<div class="header_templ">
 					<div class="left">
@@ -37,18 +37,24 @@
 				</div>
 			</div>
 			<div class="main_nav_box inner_nav_box" id="resp_nav">
-				<div class="header_templ_wrapp">
-					<div class="header_templ">
-						<div class="left">
-							<a href="#" class="logo">
-								<img src="img/logo.svg" alt="" />
-							</a>
-						</div>
-						<div class="right">
-							<ul class="switch_lang">
-								<li><a href="#">De</a></li>
-								<li><a href="#">En</a></li>
-							</ul>
+				<div class="header_row">
+					<div class="header_templ_wrapp">
+						<div class="header_templ">
+							<div class="left">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" />
+								</a>
+							</div>
+							<div class="right">
+								<ul class="switch_lang">
+									<li><a href="#">De</a></li>
+									<li><a href="#">En</a></li>
+								</ul>
+								<button class="respmenubtn_3">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +64,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Unternehmen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Unsere Werte</a></li>
 										<li><a href="#">Das macht uns aus</a></li>
 										<li><a href="#">Unser Versprechen</a></li>
@@ -74,7 +81,8 @@
 							<ul class="naim_nav">
 								<li>
 									<a href="#">Leistungen</a>
-									<ul>
+									<button type="button" class="dropdown_btn"></button>
+									<ul class="sub-menu">
 										<li><a href="#">Kaufmännisches Property Management</a></li>
 										<li><a href="#">Reporting</a></li>
 										<li><a href="#">Vermietung</a></li>
@@ -137,11 +145,10 @@
 
 		<section class="sect_2_kp">
 			<div class="row">
-				<div class="article_5">
+				<div class="article_5 article_5_1">
 					<div class="left">
 						<div class="article_5_img_wrapp">
-							<div class="article_5_img_box">
-								<img src="img/article_5.jpg" alt="">
+							<div class="article_5_img_box" style="background-image: url(img/tectareal_karriereleiter.jpg)">
 							</div>
 						</div>
 					</div>
@@ -150,9 +157,9 @@
 							<p>Die Karriereleiter aufwärts</p>
 							<h2>Auf „Augenhöhe“  ist unser Motto der Tectareal Familie</h2>
 						</div>
-						<div class="article_3_content">
-							<p>Jeder Mitarbeiter ist ein wichtiger Teil des Ganzen. Unsere Unternehmenswerte setzen unsere Mitarbeiter in den Mittelpunkt. Teamspirit, Offenheit, ein faires Miteinander auf Augenhöhe ist die Voraussetzung für eine gute Arbeitsatmosphäre. Wir versuchen immer wieder unserem Anspruch gerecht zu werden. Das heißt nicht, dass wir es immer schaffen, aber wir hören zu und wollen immer besser werden.</p>
-							<br /><br />
+						<div class="article_3_content article_3_content_2">
+							<p>Jeder Mitarbeiter ist ein wichtiger Teil des Ganzen. Unsere Werte setzen unsere Mitarbeiter in den Mittelpunkt. Teamspirit, Offenheit, ein faires Miteinander auf Augenhöhe ist die Voraussetzung für eine gute Arbeitsatmosphäre. Wir versuchen immer wieder unserem Anspruch gerecht zu werden. Das heißt nicht, dass wir es immer schaffen, aber wir hören zu und wollen immer besser werden.</p>
+
 							<p>Wir bieten hervorragende Berufschancen und Karriereperspektiven in einem sicheren und spannenden Umfeld. Tectareal ist bekannt für seine starke Teamarbeit. Wir entwickeln die  Stärken unserer MA weiter und fördern sie ganzheitlich. In unserem Talentescreening bleibt kein Talent unentdeckt.</p>
 						</div>
 					</div>
@@ -184,6 +191,12 @@
 		<section>
 			<div class="row">
 				<div class="article_6">
+					<div class="right">
+						<div class="article_5_img_wrapp article_6_img_wrapp">
+							<div class="article_5_img_box" style="background-image: url(img/tectareal_weiterbildung.jpg)">
+							</div>
+						</div>
+					</div>
 					<div class="left">
 						<div class="article_3_header">
 							<p>Weiterbildung</p>
@@ -200,14 +213,7 @@
 								<li>u.v.m</li>
 							</ul>
 						</div>
-					</div>
-					<div class="right">
-						<div class="article_5_img_wrapp article_6_img_wrapp">
-							<div class="article_5_img_box">
-								<img src="img/article_6.jpg" alt="">
-							</div>
-						</div>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</section>
@@ -364,7 +370,7 @@
 
 		<!-- Section 6 - Karriere Page -->
 
-		<section class="sect_6_kp">
+		<!-- <section class="sect_6_kp">
 			<div class="row">
 				<div class="h2_wrapp">
 					<h2>Jobangebote bei Tectareal</h2>
@@ -541,13 +547,13 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- /Section 6 - Karriere Page -->
 
 		<!-- Section 7 - Karriere Page -->
 
-		<section class="grey_bg">
+		<!-- <section class="grey_bg">
 			<div class="row">
 				<div class="testimonial_slider">
 					<div class="slide">
@@ -578,13 +584,13 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- /Section 7 - Karriere Page -->
 
 		<!-- Section 8 - Karriere Page -->
 
-		<section>
+		<!-- <section>
 			<div class="row">
 				<div class="contacts_article">
 					<div class="left">
@@ -666,8 +672,7 @@
 					</div>
 				</div>
 			</div>
-
-		</section>
+		</section> -->
 
 		<!-- /Section 8 - Karriere Page -->
 
@@ -707,8 +712,26 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer_nav_resp_wrapp">
+						<ul class="footer_nav_resp">
+							<li><a href="#" >Home</a></li>
+							<li><a href="#" >Kontakt</a></li>
+							<li><a href="#" >Unternehmen</a></li>
+							<li><a href="#" >Impressum</a></li>
+							<li><a href="#" >Leistungen</a></li>
+							<li><a href="#" >Datenschutz</a></li>
+							<li><a href="#" >Karriere</a></li>
+							<li>
+								<ul class="soc_list_resp">
+									<li><a href="#"><img src="img/fb.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/ln.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/soc.svg" alt="" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="footer_bootom_row">
 				<div class="row">
 					<div class="footer_bootom">

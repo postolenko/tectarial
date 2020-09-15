@@ -84,6 +84,14 @@
 
 /*-- /Section 1 - Contact --*/
 
+/*-- Section 1 - News --*/
+
+.article_7 .article_5_img_wrapp {
+    left: 58px;
+}
+
+/*-- /Section 1 - News --*/
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -502,6 +510,122 @@ h1 {
 
 /*-- /Section 1 - Contact --*/
 
+/*-- Section 2 - Karriere Page --*/
+
+.article_5 {
+    padding: 20px 0;
+}
+
+.article_5 .left {
+    width: 370px;
+}
+
+.article_5 .right {
+    width: calc(100% - 370px);
+}
+
+.article_3_header {
+    padding-bottom: 10px;
+}
+
+.article_3_header p {
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.article_3_header h2 {
+	font-size: 34px;
+    line-height: 49px;
+}
+
+.article_5_img_wrapp {
+	margin-top: 128px;
+    width: 300px;
+    left: -8px;
+}
+
+.article_5_img_box {
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.article_3_content p {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.article_5_img_wrapp:before {
+    width: 265px;
+    height: 315px;
+    top: -29px;
+    left: 73px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.article_5_img_wrapp:after {
+    width: 362px;
+    height: 219px;
+    top: 132px;
+    right: -26px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.article_3_content p {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.article_3_content_2 p {
+    padding-bottom: 30px;
+}
+
+/*-- /Section 2 - Karriere Page --*/
+
+/*-- Section 3 - Karriere Page --*/
+
+.article_6_img_wrapp:after {
+    width: 263px;
+    height: 152px;
+    top: 175px;
+    right: 76px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.article_6 .left {
+    width: calc(100% - 390px);
+}
+
+.article_6 .right {
+    width: 390px;
+}
+
+.article_6_img_wrapp {
+    margin-top: 120px;
+    left: 52px;
+}
+
+.article_3_content ul {
+    padding-top: 20px;
+}
+
+.article_3_content ul li {
+	font-size: 19px;
+    line-height: 30px;
+}
+
+.article_3_content ul li:before {
+    width: 8px;
+    height: 8px;
+    top: 10px;
+}
+
+/*-- /Section 3 - Karriere Page --*/
+
 /*-- Footer --*/
 
 .footer_templ .col:nth-child(1) {
@@ -876,6 +1000,66 @@ h1 {
 }
 
 /*-- /Section 2 - Contact --*/
+
+/*-- Section 1 - News --*/
+
+.h2_wrapp_2 {
+    padding: 100px 0 100px 0;
+}
+
+/*-- /Section 1 - News --*/
+
+/*-- Section 2 - Karriere Page --*/
+
+.article_5_1 {
+	display: block;
+}
+
+.article_5_1 .left {
+    width: 370px;
+}
+
+.article_5_1 .right {
+    width: 100%;
+    padding: 71px 0 10px 0;
+}
+
+.article_5_1 .article_5_img_wrapp {
+    margin-top: 0;
+    left: 20px;
+}
+
+.article_5_1 .article_3_header {
+    padding-right: 0;
+}
+
+/*-- /Section 2 - Karriere Page --*/
+
+/*-- Section 3 - Karriere Page --*/
+
+.article_6 {
+	display: block;
+    margin: 70px 0 70px 0;
+}
+
+.article_6 .left {
+    width: 100%;
+}
+
+.article_6 .right {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+    width: 100%;
+}
+
+.article_6_img_wrapp {
+    margin: 29px 0 40px;
+    left: -38px;
+}
+
+/*-- /Section 3 - Karriere Page --*/
 
 }
 
@@ -1847,6 +2031,92 @@ textarea {
 
 /*-- /Section 2 - Contact --*/
 
+/*-- Section 2 - Karriere Page --*/
+
+.article_5_1 .left {
+    width: 150px;
+}
+
+.article_5_1 .article_5_img_wrapp {
+    /*margin-top: 128px;*/
+    width: 150px;
+    left: 0;
+}
+
+.article_5 .article_3_header h2 {
+    font-size: 31px;
+    line-height: 44px;
+}
+
+.article_5 .article_3_content {
+    padding: 11px 0 10px 0;
+}
+
+.article_5 .article_3_content p {
+	padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.article_5_img_box {
+    height: 150px;
+    width: 150px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.article_5_img_wrapp:before {
+    width: 134px;
+    height: 153px;
+    top: -15px;
+    left: 36px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.article_5_img_wrapp:after {
+    width: 182px;
+    height: 106px;
+    top: 64px;
+    right: -11px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.article_5_1 .right {
+    padding: 37px 0 10px 0;
+}
+
+.article_3_header p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/*-- /Section 2 - Karriere Page --*/
+
+/*-- Section 3 - Karriere Page --*/
+
+.article_6 {
+    margin: 30px 0;
+}
+
+.article_6_img_wrapp {
+	width: 170px;
+	margin: 26px 0 20px;
+	left: 23px;
+}
+
+.article_6_img_wrapp:after {
+    width: 125px;
+    height: 66px;
+    top: 95px;
+    right: 60px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+/*-- /Section 3 - Karriere Page --*/
+
 /*-- Footer --*/
 
 .footer_bootom_row {
@@ -2514,7 +2784,7 @@ p {
 
 .article_3_header h2 {
     font-size: 20px;
-    line-height: 36px;
+    line-height: 33px;
 }
 
 .article_3_content {
@@ -2700,14 +2970,55 @@ p {
 
 /*-- /Section 2 - Contact --*/
 
-/*-- Header --*/
+/*-- Section 1 - News --*/
 
-/*.header_site_inner_2 {
-	background: url(img/tectareal_header_leistungen_resp.jpg);
-	background-size: cover;
-}*/
+.h2_wrapp_2 {
+    padding: 40px 0;
+}
 
-/*-- /Header --*/
+/*-- /Section 1 - News --*/
+
+/*-- Section 1 - Karriere Page --*/
+
+.promo_sect_4 .bg_image:before {
+	background-image: url(img/tectareal_header_leistungen.jpg);
+}
+
+/*-- /Section 1 - Karriere Page --*/
+
+/*-- Section 2 - Karriere Page --*/
+
+.article_5 .article_3_header h2 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.article_5 .article_3_header p {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.article_5 .article_3_content p {
+    padding-bottom: 17px;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+/*-- /Section 2 - Karriere Page --*/
+
+/*-- Section 3 - Karriere Page --*/
+
+.article_3_content ul li {
+	padding-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.article_3_content ul li:before {
+    top: 8px;
+}
+
+/*-- /Section 3 - Karriere Page --*/
 
 }
 
@@ -3312,6 +3623,38 @@ h1 {
 }
 
 /*-- /Section 1 - Contact --*/
+
+/*-- Section 2 - Karriere Page --*/
+
+.sect_2_kp {
+    padding: 24px 0 5px 0;
+}
+
+.article_5_1 .right {
+    padding: 29px 0 2px 0;
+}
+
+.article_5 .article_3_header {
+    padding-bottom: 3px;
+}
+
+.article_5 .article_3_header p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.article_5 .article_3_header h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.article_5 .article_3_content p {
+    padding-bottom: 17px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Karriere Page --*/
 
 /*-- Footer --*/
 

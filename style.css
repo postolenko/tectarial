@@ -1082,23 +1082,23 @@ textarea:focus {
     -o-animation: bg_image 10s linear;
     animation: bg_image 10s linear;*/
     -webkit-transition-property: transform;
-    -webkit-transition-duration: 3s;
+    -webkit-transition-duration: 5s;
     -webkit-transition-timing-function: ease;
 
     -moz-transition-property: transform;
-    -moz-transition-duration: 3s;
+    -moz-transition-duration: 5s;
     -moz-transition-timing-function: ease;
 
     -ms-transition-property: transform;
-    -ms-transition-duration: 3s;
+    -ms-transition-duration: 5s;
     -ms-transition-timing-function: ease;
 
     -o-transition-property: transform;
-    -o-transition-duration: 3s;
+    -o-transition-duration: 5s;
     -o-transition-timing-function: ease;
 
     transition-property: transform;
-    transition-duration: 3s;
+    transition-duration: 5s;
     transition-timing-function: ease;
 
     transform: scale(1);
@@ -1287,23 +1287,23 @@ textarea:focus {
 /*    position: relative;    
     top: 0;*/
     -webkit-transition-property: margin-top;
-    -webkit-transition-duration: 3s;
+    -webkit-transition-duration: 5s;
     -webkit-transition-timing-function: ease;
 
     -moz-transition-property: margin-top;
-    -moz-transition-duration: 3s;
+    -moz-transition-duration: 5s;
     -moz-transition-timing-function: ease;
 
     -ms-transition-property: margin-top;
-    -ms-transition-duration: 3s;
+    -ms-transition-duration: 5s;
     -ms-transition-timing-function: ease;
 
     -o-transition-property: margin-top;
-    -o-transition-duration: 3s;
+    -o-transition-duration: 5s;
     -o-transition-timing-function: ease;
 
     transition-property: margin-top;
-    transition-duration: 3s;
+    transition-duration: 5s;
     transition-timing-function: ease;
 /*    column-count: 2;
     column-gap: 40px;*/
@@ -3448,8 +3448,8 @@ textarea {
     display: block;
     width: auto;
     height: auto;
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 60%;
+    max-height: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3671,6 +3671,8 @@ textarea {
 }
 
 .article_3_header p {
+    font-size: 20px;
+    line-height: 35px;
     font-weight: 600;
 }
 
@@ -3683,7 +3685,8 @@ textarea {
 }
 
 .article_3_content p {
-
+    font-size: 24px;
+    /*padding-bottom: 40px;*/
 }
 
 .article_3_content .olive_pill_2 {
@@ -3743,7 +3746,7 @@ textarea {
     width: 400px;
     position: relative;
     left: -102px;
-    margin-top: 160px;
+    margin-top: 173px;
 }
 
 .article_5_img_box {
@@ -3754,6 +3757,8 @@ textarea {
     -webkit-border-radius: 30px;
     border-radius: 30px;
     z-index: 2;
+    background-size: cover;
+    background-position: center;
 }
 
 .article_5_img_wrapp:before {
@@ -3776,7 +3781,7 @@ textarea {
     content: "";
     width: auto;
     height: auto;
-    width: 500px;
+    width: 480px;
     height: 290px;
     background-color: #29A4D3;
     position: absolute;
@@ -3786,7 +3791,7 @@ textarea {
     border-radius: 30px;
 }
 
-.article_5_img_box img {
+/*.article_5_img_box img {
     display: block;
     width: auto;
     height: auto;
@@ -3798,7 +3803,7 @@ textarea {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+}*/
 
 .article_header {
 
@@ -3816,6 +3821,10 @@ textarea {
 
 }
 
+.article_3_content_2 p {
+    padding-bottom: 40px;
+}
+
 /*-- /Section 2 - Karriere Page --*/
 
 /*-- Section 3 - Karriere Page --*/
@@ -3830,10 +3839,12 @@ textarea {
 
 .article_6 .left {
     width: calc(100% - 500px);
+    order: 1;
 }
 
 .article_6 .right {
-    width: 500px; 
+    width: 500px;
+    order: 2;
 }
 
 .article_3_content {
@@ -4540,7 +4551,7 @@ p.testimonial_author {
 
 .article_7 .left {
     width: calc(100% - 500px);
-    padding: 72px 3% 0 0;
+    padding: 72px 3% 72px 0;
 }
 
 .article_7 .right {
