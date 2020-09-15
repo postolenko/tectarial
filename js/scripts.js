@@ -394,7 +394,16 @@ $(document).ready(function() {
             speed: 1200,
             slidesToShow: 1,
             slidesToScroll: 1,
-            fade: true
+            fade: true,
+            responsive: [
+                {
+                  breakpoint: 600,
+                  settings: {
+                    dots: false
+                  }
+                }
+            ]
+
         });
     }
 

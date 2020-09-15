@@ -4129,7 +4129,8 @@ textarea {
     text-align: center;
     background-image: url(img/card_bg.png);
     background-position: center bottom;
-    background-size: contain;
+    /*background-size: contain;*/
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -4168,7 +4169,7 @@ textarea {
 /*-- Section 7 - Leistungen Page --*/
 
 .testimonial_slider {
-    margin: 70px 0 70px 0;
+    margin: 70px 0 47px 0;
 }
 
 .testimonial_slider .slide {
@@ -4183,11 +4184,11 @@ textarea {
 }
 
 .testimonial_wrapp .left {
-    width: 350px;
+    width: 340px;
 }
 
 .testimonial_wrapp .right {
-    width: calc(100% - 350px);
+    width: calc(100% - 340px);
     padding-top: 10px;
 }
 
@@ -4196,7 +4197,10 @@ textarea {
 }
 
 .testimonial_wrapp .photo_box {
-
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
 }
 
 .testimonial_wrapp .photo_box img {
@@ -4204,11 +4208,13 @@ textarea {
 }
 
 .testimonial_wrapp p {
-    padding: 10px 0;
+    font-size: 20px;
+    line-height: 37px;
+    padding: 0;
 }
 
 p.testimonial_author {
-    padding-top: 30px;
+    padding-top: 26px;
     font-weight: bold;
 }
 
@@ -4234,9 +4240,13 @@ p.testimonial_author {
 
 .testimonial_slider .slick-dots {
     text-align: left;
-    padding-left: 347px;
+    padding-left: 338px;
     position: relative;
-    bottom: -51px;
+    bottom: -26px;
+}
+
+.resp_text {
+    display: none;
 }
 
 /*-- /Section 7 - Leistungen Page --*/
